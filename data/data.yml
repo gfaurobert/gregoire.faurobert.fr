@@ -1,0 +1,571 @@
+basic:
+  name: Gregor Faurobert                      # name
+  title: Life Sciences Product Manager           # job title
+  avatar:
+    show: true                       # show or hide avatar
+    path: /images/avatar.jpg        # avatar file path
+
+contact:
+  # meta
+  location: Wiesentheid, Germany # location
+  email: gregoire@faurobert.fr    # email address
+  phone: +49 176 3268 2817 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: gregoire.faurobert.fr     # site URL without schema, like example.com, will automatically prepand "https://"
+
+  gender:                  # gender or pronoun
+  birthday:                # birthday
+  nationality:             # nationality
+  visa:                    # passport visa
+  drivinglicense:          # driving licence
+
+  # contact
+  wechat:                  # username
+  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
+  telegram:                # username          | https://t.me/username
+  messenger:               # username          | https://m.me/username
+  line:                    # lineid            | https://line.me/R/ti/p/@lineid
+  viber:                   # username          | https://vb.me/username
+  threema:                 # userid            | https://threema.id/userid
+
+  # programmer
+  github:                  # username          | https://github.com/username
+  gitlab:                  # username          | https://gitlab.com/username
+  bitbucket:               # username          | https://bitbucket.com/username
+  stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
+  leetcode:                # username          | https://leetcode.com/username
+  codeforces:              # username          | https://codeforces.com/profile/username
+  codewars:                # username          | https://www.codewars.com/users/username
+  codepen:                 # username          | https://codepen.io/username
+  tryhackme:               # username          | https://tryhackme.com/p/username
+
+  # academic
+  googlescholar:           # username          | https://scholar.google.com/citations?user=username
+  researchgate:            # username          | https://www.researchgate.net/profile/username
+  kaggle:                  # username          | https://www.kaggle.com/username
+  orcid:                   # id                | https://orcid.org/id
+  figshare:                # name/id           | https://figshare.com/authors/name/id
+
+  # writer
+  devto:                   # username          | https://dev.to/username
+  medium:                  # username          | https://medium.com/@username
+  wordpress:               # username          | https://username.wordpress.com
+  blogger:                 # username          | https://username.blogspot.com
+  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
+
+  # designer
+  figma:                   # username          | https://www.figma.com/@username
+  behance:                 # username          | https://www.behance.net/username
+  dribble:                 # username          | https://dribbble.com/username
+  artstation:              # username          | https://www.artstation.com/username
+
+  # other cv
+  linkedin: gfaurobert               # username          | https://linkedin.com/in/username
+  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
+  xing:                    # username          | https://www.xing.com/profile/username
+  fiverr:                  # username          | https://www.fiverr.com/username
+  freelancer:              # username          | https://www.freelancer.com/u/username
+
+  # social media
+  twitter: gfaurobert                # username          | https://twitter.com/username
+  mastodon:                # username@server
+  instagram:               # username          | https://instagram.com/username
+  unsplash:                # username          | https://unsplash.com/@username
+  _500px:                  # username          | https://500px.com/p/username
+  youtube: salutlespm      # username          | https://www.youtube.com/@username
+  tiktok:                  # username          | https://www.tiktok.com/@username
+  quora:                   # username          | https://www.quora.com/profile/username
+  zhihu:                   # username          | https://www.zhihu.com/people/username
+  goodreads:               # username          | https://www.goodreads.com/user/show/username
+  strava:                  # useid             | https://www.strava.com/athletes/userid
+  
+  # print
+  print: Print me!
+
+experience:
+  show: true
+  order: 2
+  title: Experiences
+#  description: |
+#    ### More than a decade in conducting Clinical Trials!
+    
+  items:
+ 
+    - company: Welocalize
+      link: 'https://welocalize.com/'
+      tags: Full-time
+      date: 2024.07 - present
+      role: Senior Product Manager
+      location: Wiesentheid
+      description: |
+        + **Responsabilities**
+          + Market analysis
+          + Domain analysis
+          + Product lean business case
+          + Vision & roadmap
+          + Ideation & requirement engineering
+          + Business use cases & user stories
+          + Stakeholders inputs moderation
+          + Product release readiness
+          + Training & piloting
+          + Success & lessons learned
+        + **Achievements**
+          + Automating and Simplifying Translation Process
+
+    - company: Clario.
+      link: 'https://clario.com/'
+      tags: Full-time
+      date: 2021.12 - 2024.04
+      role: Product Manager
+      location: Würzburg
+      description: |
+        Empowering clinical trial designers to unlock better evidence.
+        + **Responsabilities**
+          + Market analysis
+          + Domain analysis
+          + Product lean business case
+          + Vision & roadmap
+          + Ideation & requirement engineering
+          + Business use cases & user stories
+          + Stakeholders inputs moderation
+          + Product release readiness
+          + Training & piloting
+          + Success & lessons learned
+        + **Achievements**
+          + Clario Designer (study build solution powered by a domain specific language)
+
+    - company: eResearch Technology GmbH
+      link: 'https://clario.com/'
+      tags: Full-time
+      date: 2020.11 - 2021.12
+      role: Product Owner
+      location: Würzburg
+      description: |
+        Maximising value of Cardiology and Respiratory solutions
+        + **Responsibilities**
+          + Daily team management
+          + Backlog refinement
+          + Collect stakeholders feedback
+          + Program increment planning
+          + Iteration planning & review
+          + Software documentation
+          + Software demo
+        + **Achievements**
+          + Transitioned CLinical Trials portals from monolithic to micro services
+
+          
+    - company: eResearch Technology GmbH
+      link: 'https://clario.com/'
+      tags: Full-time
+      date: 2015.07 - 2020.11
+      role: Project Manager
+      location: Würzburg
+      description: |
+        Delivering solutions for Respiratory studies
+        + **Responsibilities**
+          + Sales to services
+          + Protocol requirement specifications
+          + Timelines and deliverables
+          + User acceptance and release
+          + Training & site set-up
+          + Change request & runtime troubleshooting
+          + Clinical trial team support
+          + Regulatory compliance
+          + Hardware & software requirements
+          + Import & export of CT hardware and consumables
+          + Contracting & billing
+        + **Achievements**
+          + Conducted successfully a dozen of phase III clinical trials
+          + Subject matter expert for respiratory asssessments
+          
+    - company: eResearch Technology GmbH
+      link: 'https://clario.com/'
+      tags: Full-time
+      date: 2011.05 - 2015.07
+      role: Data Manager
+      location: Würzburg
+      description: |
+        + **Responsibilities**
+          + Data maintenance
+          + Data cleaning and plausibility checks
+          + Data export specifications
+          + Data management plan
+          + Data reconciliation
+          + Database lock
+        + Achievements
+          + Built a Suite of Scripts for automating Query & Data Maintenance.
+        
+profile:
+  show: true
+  order: 1
+  title: About me
+  description: |
+    ### Highly motivated end-to-end solutioner with a deep passion for AI/ML and Life Sciences.
+    
+    As I thrive on staying at the forefront of **innovation**, I continuously expand my knowledge of web technologies.
+    
+    Since the emergence of Large Language Models (**LLMs**) and their toolchains, I am prototyping their applications for **BioPharma**.
+    
+    My news feed is filled with **tech** updates, product reviews, and **business intelligence**, keeping me ahead of the curve.
+    
+    Next to my technical pursuits, I also practice **Muay Thai**, the experience of the ring is the most challenging and rewarding one.
+    
+    My passion for **History** leads me to devour historical essays and ever expand my reading list.
+    
+#    Since the advent of Large Language Model (LLM) and AGI, I have been exploring LLM applications.
+    
+#    I thrive on staying at the forefront of innovation, continuously learning the latest web technologies and leveraging the wealth of free online resources.
+    
+#    My news feed is full of tech info, product reviews and business intelligence analysis.
+    
+#    I’m practicing Mixed Martial Arts and Thai Kickboxing. Stepping in the ring is one of the most challenging and rewarding experiences.
+    
+#    Passionate about History, I read a lot of historical essays. With an ever growing reading list, I discipline myself to read every day.
+
+    
+project:
+  show: false
+  order: 3
+  title: Projects
+  description: |
+    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+
+    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+
+    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+
+  items:
+    - name: Personal project
+      link: '#'
+      tags:
+      date: 2015 - 2017
+      description: |
+        Personal project description...
+        + First
+        + Second
+
+    - name: OSS project
+      link:
+      tags: committer
+      date:
+      description: |
+        OSS project description...
+        + First
+        + Second
+
+skill:
+  show: true
+  order: 4
+  title: Skills
+  #~ description: |
+    #~ The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
+
+    #~ The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
+
+    #~ When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
+
+    #~ There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
+
+  #~ items:
+    #~ - name: Clinical Trials
+      #~ level: 5
+    #~ - name: Product 
+    #~ - name: Project Management
+      #~ level: 5
+    #~ - name: Data Management
+      #~ level: 5
+    #~ - name: Email communication
+      #~ level: 5
+    #~ - name: Presentation
+      #~ level: 5
+    #~ - name: Story Telling
+      #~ level: 3
+    #~ - name: Requirement Engineering
+      #~ level: 3
+    #~ - name: Domain Specific Language
+      #~ level: 3
+    #~ - name: Domain Modelling
+      #~ level: 2
+    #~ - name: Software Architecture
+      #~ level: 2
+
+  groups:
+    - name: Market Intelligence & Research
+      item:
+        - Competition analysis
+        - Alternatives analysis
+        - Partnerhsip research
+        - Media monitoring
+        - Stakeholders interview
+        - Survey
+    - name: Requirement Engineering
+      item:
+        - Writing business use case
+        - Domain modeling
+        - UX/UI wireframing
+    - name: Product Lifecycle Management
+      item:
+        - Stakeholder advocacy
+        - Visionary leadership
+        - Story telling
+        - Product launch
+        - User onboarding
+    
+    - name: Biotech & Clinical Trials
+      item:
+        - Good clinical practice (GCP)
+        - Clinical outcome assessment (eCOA)
+        - Patient reported outcome (ePRO)
+        - Clinician reported outcome (eClinRO)
+        - Respiratory
+        - Cardiac safety
+        - 21 CFR part 11
+        - Study design/build
+        - Standard clinical assessment
+        
+    - name: Team Building/Leading
+      item:
+        - Organizing team workshop
+        - Knowledge transfer strategies
+        - Cross-functional collaboration
+        
+
+education:
+  show: true
+  order: 5
+  title: Education
+  #~ description: |
+    #~ The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
+
+    #~ In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
+
+  items:
+    - institution: Université de Toulon
+      link: 'https://www.univ-tln.fr/'
+      date: 2007 - 2010
+      major: Information & Communication
+      degree: Master
+      #~ description: |
+        #~ Additional information for this institution.
+        #~ + First
+        #~ + Second
+
+    - institution: University of West of Scotland
+      link: 'https://www.uws.ac.uk/'
+      date: 2009 - 2010
+      major: Multimedia and Web Authoring
+      degree: Post Graduate Diploma
+      #~ description: |
+        #~ Additional information for this institution.
+        #~ + First
+        #~ + Second
+
+certificate:
+  show: true
+  order: 6
+  title: Certificates
+  #~ description: |
+    #~ The certificate section in a resume is a dedicated section where you can showcase any additional certifications or specialized training you have received. This section provides potential employers with a more complete picture of your skills and expertise, and can help you stand out from other candidates.
+
+    #~ Certificates can come from a variety of sources, such as online courses, workshops, or professional development programs. Examples of certificates that might be relevant to include on your resume could include certifications in a particular software or technology, industry-specific certifications, or certifications related to a specific skill or area of expertise.
+
+    #~ When including your certificates in your resume, be sure to provide the name of the certification, the institution or organization that issued it, and the date it was issued. You may also want to include a brief description of the skills or knowledge that the certification demonstrates.
+
+    #~ The certificate section of your resume should be tailored to the specific job you are applying for, and should only include certifications that are relevant to the position. By highlighting your certifications, you can demonstrate your commitment to professional development and your expertise in a particular area.
+
+  items:
+    - name: Professional Scrum Product Owner
+      issuer: Scrum.org
+      date: 2020
+      link: 'https://www.scrum.org/user/721699'
+      #~ description: |
+        #~ It's my Example Certificate One by Example.
+    #~ - name: Example Certificate Two
+      #~ issuer: by Example
+      #~ date: 2020
+      #~ link:
+      #~ description: |
+        #~ It's my Example Certificate Two by Example.
+
+publication:
+  show: false
+  order: 7
+  title: Publications
+  description: |
+    The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
+
+    Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
+
+    If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
+
+    Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
+
+  items:
+    - title: Example Publication in Action
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link: '#'
+    - title: The Art of Example Publication
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link:
+
+award:
+  show: false
+  order: 8
+  title: Awards
+  description: |
+    The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
+
+    When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
+
+    By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
+
+  items:
+    - name: Example Awared One
+      awarder: by Example
+      date: 2022
+      link: '#'
+      description: |
+        It's my Example Awared One by Example.
+    - name: Example Awared Two
+      awarder: by Example
+      date: 2022
+      link:
+      description: |
+        It's my Example Awared Two by Example.
+
+patent:
+  show: false
+  order: 9
+  title: Patents
+  description: |
+    The patent section in a resume is a dedicated section where you can showcase any patents that you have been granted or are in the process of obtaining. This section is particularly relevant for individuals who work in scientific or technical fields, as well as for individuals who have developed innovative products or technologies.
+
+    In this section, you should list the title of the patent, the name of the inventors, the patent number, and the date it was granted. If the patent is pending, you can indicate that it is "pending" or "in review." You may also want to provide a brief description of the technology or invention that the patent covers.
+
+    Including a patent section in your resume can help demonstrate your expertise and accomplishments in your field, and can help you stand out from other candidates. However, if you do not have any patents to list, it is not necessary to include this section in your resume.
+
+    Template for a pending patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date]. Patent pending.
+
+    Template for an approved patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date], [Received Date].
+
+    The following are some examples of patent formats.
+
+    + Foo Bar. 2022. Example patent name one. US 123456, filed Oct 3, 2022. Patent pending.
+    + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
+
+organization:
+  show: false
+  order: 10
+  title: Organizations
+  description: |
+    The organization section in a resume, specifically for social contexts, is a section where you can showcase any relevant involvement or leadership positions in social, cultural, or community organizations. This section can highlight your commitment to social causes and your ability to work collaboratively with others towards a common goal.
+
+    In this section, you can list the name of the organization, your role and responsibilities, the duration of your involvement, and any significant achievements or accomplishments. You can also mention any skills or qualities you gained from your involvement, such as leadership, teamwork, communication, or problem-solving skills.
+
+    This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
+
+language:
+  show: true
+  order: 11
+  title: Languages
+  #~ description: |
+    #~ The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
+
+    #~ It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
+
+  items:
+    - idiom: French
+      level: Native
+    - idiom: English
+      level: Bilingual
+    - idiom: German
+      level: Basic
+
+interest:
+  show: false
+  order: 12
+  title: Interests
+  description: |
+    The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
+
+    Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
+
+    However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
+
+  items:
+    - item: Reading
+      link: '#'
+    - item: Cooking
+      link:
+
+evaluation:
+  show: false
+  order: 13
+  title: Self-evaluation
+  description: |
+    The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
+
+    In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
+
+    A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
+
+reference:
+  show: true
+  order: 14
+  title: References
+  #~ description: |
+    #~ A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
+
+    #~ It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
+
+    #~ When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
+
+    #~ It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
+
+  items:
+    - name: Mike Vogel
+      link: 'https://www.linkedin.com/in/jamesmichaelvogel/'
+      title: Solution Architect
+      institution: Accenture
+      #~ address: 1234 Example St, XXX, XY 11111
+      email: mike.vogel@accenture.com
+      #~ phone: 111-222-333
+      description: |
+        Mentored me in Agile development and requirement engineering
+
+    - name: Markus Völter
+      link: 'https://voelter.de/'
+      title: Language Engineering Expert
+      institution: Voelter Ingenieurbüro
+      #~ address: 4321 Example St, YYY, XY 22222
+      email: voelter@acm.org
+      #~ phone: 444-555-666
+      description: |
+        Principal Engineer and Domain Analyst who educated me on Domain Specific Language
+
+    - name: Christian Bechinie von Lazan
+      link: 'https://www.linkedin.com/in/christian-bechinie-von-lazan-99505041/'
+      title: Senior Director, Product Management
+      institution: Clario.
+      #~ address: 4321 Example St, YYY, XY 22222
+      email: christian.bechinievonlazan@clario.com
+      #~ phone: 444-555-666
+      description: |
+        Was my Director and gave me my first opportunity as a Product Manager
+    
+    - name: Günther Hirsch
+      link: 'https://www.linkedin.com/in/guenther-hirsch-28094b73/'
+      title: Manager, Project Management
+      institution: Clario.
+      #~ address: 4321 Example St, YYY, XY 22222
+      email: guenther.hirsch@clario.com
+      #~ phone: 444-555-666
+      description: |
+        Was my leader and my never failing supporter as a Project Manager
+
+#~ close: <strong>Sorry, my resume has been hidden.</strong>

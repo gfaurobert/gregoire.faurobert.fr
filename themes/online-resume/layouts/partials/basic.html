@@ -1,0 +1,18 @@
+{{- $basic := .data.basic }}
+{{- if $basic }}
+<section class="basic">
+  {{- if $basic.avatar.show | and $basic.avatar.path }}
+  <img class="avatar" src="{{ $basic.avatar.path }}" alt="avatar">
+  {{- end }}
+
+  <div class="header" {{ if ne $basic.avatar.show true }}style="align-items: center;"{{ end }}>
+    {{- if $basic.name }}
+    <h1 class="name">{{ $basic.name }}</h1>
+    {{- if $basic.title }}
+    <h3 class="title">{{ $basic.title }}</h3>
+    {{- end }}
+    {{- end }}
+    {{- partial "contact.html" . }}
+  </div>
+</section>
+{{- end }}
