@@ -28,7 +28,7 @@
 
 <!-- Two-Column CV Styles -->
 <style>
-/* Two-Column CV Layout Styles - A4 Optimized */
+/* Two-Column CV Layout Styles - A4 Optimized for 2 Pages */
 :root {
   --cv-primary: #2563eb;
   --cv-primary-light: #3b82f6;
@@ -43,26 +43,39 @@
   --cv-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --cv-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --cv-radius: 0.25rem;
-  --cv-spacing: 1rem;
+  --cv-spacing: 0.75rem;
   --cv-sidebar-width: 70mm;
   --cv-main-width: calc(210mm - var(--cv-sidebar-width));
   --cv-page-width: 210mm;
   --cv-page-height: 297mm;
-  --cv-margin: 10mm;
+  --cv-margin: 8mm;
+}
+
+/* Two-page container */
+.cv-two-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Individual page styling */
+.cv-page {
+  width: var(--cv-page-width);
+  height: var(--cv-page-height);
+  background: var(--cv-background);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .cv-two-column {
   display: flex;
-  width: var(--cv-page-width);
-  min-height: var(--cv-page-height);
-  max-width: var(--cv-page-width);
-  margin: 0 auto;
-  background: var(--cv-background);
+  width: 100%;
+  height: 100%;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  line-height: 1.4;
+  line-height: 1.3;
   color: var(--cv-text-primary);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  font-size: 10pt;
+  font-size: 9pt;
 }
 
 @media screen {
@@ -77,15 +90,16 @@
   background: var(--cv-surface);
   border-right: 1px solid var(--cv-border);
   padding: var(--cv-margin);
-  min-height: var(--cv-page-height);
+  height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .cv-profile {
   text-align: center;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--cv-border);
   flex-shrink: 0;
 }
@@ -100,29 +114,29 @@
 }
 
 .cv-name {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 700;
   color: var(--cv-text-primary);
   margin-bottom: 0.25rem;
 }
 
 .cv-title {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: var(--cv-primary);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
 .cv-contact {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   flex-shrink: 0;
 }
 
 .cv-contact-item {
   display: flex;
   align-items: center;
-  margin-bottom: 0.75rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
   color: var(--cv-text-secondary);
 }
 
@@ -175,7 +189,7 @@
 }
 
 .cv-skill-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .cv-skill-group-title {
@@ -184,7 +198,7 @@
   color: var(--cv-text-primary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.375rem;
   border-bottom: 1px solid var(--cv-primary);
   padding-bottom: 0.125rem;
 }
@@ -198,9 +212,9 @@
 .cv-skill-item {
   background: var(--cv-primary);
   color: white;
-  padding: 0.25rem 0.75rem;
+  padding: 0.125rem 0.5rem;
   border-radius: var(--cv-radius);
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   font-weight: 500;
 }
 
@@ -318,18 +332,20 @@
   flex: 1;
   padding: var(--cv-margin);
   max-width: var(--cv-main-width);
+  height: 100%;
+  overflow: hidden;
 }
 
 .cv-section {
-  margin-bottom: var(--cv-spacing);
+  margin-bottom: 0.75rem;
 }
 
 .cv-section-title {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--cv-text-primary);
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.375rem;
   border-bottom: 2px solid var(--cv-primary);
   position: relative;
 }
@@ -346,14 +362,14 @@
 
 .cv-description {
   color: var(--cv-text-secondary);
-  line-height: 1.6;
-  margin-bottom: 1rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
   text-align: justify;
 }
 
 .cv-experience-item {
-  margin-bottom: 0.75rem;
-  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
   background: var(--cv-surface);
   border-radius: var(--cv-radius);
   border-left: 3px solid var(--cv-primary);
@@ -364,18 +380,18 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.375rem;
 }
 
 .cv-experience-company {
   font-weight: 700;
   color: var(--cv-text-primary);
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .cv-experience-date {
   color: var(--cv-text-muted);
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   font-weight: 500;
 }
 
@@ -389,7 +405,7 @@
 .cv-experience-role {
   color: var(--cv-text-primary);
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   flex: 1;
 }
 
@@ -401,19 +417,20 @@
 .cv-experience-company {
   color: var(--cv-primary);
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 
 .cv-experience-location {
   color: var(--cv-text-muted);
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   margin-left: 0.5rem;
 }
 
 .cv-experience-description {
   color: var(--cv-text-secondary);
-  line-height: 1.3;
+  line-height: 1.2;
   text-align: justify;
+  font-size: 0.75rem;
 }
 
 .cv-innovation-item {
@@ -515,6 +532,70 @@
   line-height: 1.6;
 }
 
+/* Page break controls for PDF generation */
+.cv-experience-item,
+.cv-innovation-item,
+.cv-education-item,
+.cv-certificate-item,
+.cv-project-item,
+.cv-reference-item {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  orphans: 3;
+  widows: 3;
+}
+
+.cv-skill-group {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  orphans: 2;
+  widows: 2;
+}
+
+.cv-contact {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.cv-profile {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Additional page break controls */
+.cv-section {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.cv-description {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Force page breaks before major sections if needed */
+.cv-section:nth-child(n+3) {
+  page-break-before: auto;
+}
+
+/* Ensure minimum content before page break */
+.cv-experience-item,
+.cv-innovation-item {
+  min-height: 2em;
+}
+
+/* Add space before specific sections to force better page breaks */
+.cv-experience-item:nth-child(4) {
+  margin-top: 2rem;
+  page-break-before: always;
+}
+
+/* Alternative: Add space before Product Owner section specifically */
+.cv-experience-item:has(.cv-experience-role:contains("Product Owner")) {
+  margin-top: 2rem;
+  page-break-before: always;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .cv-two-column {
@@ -541,30 +622,45 @@
   body {
     background: white !important;
     color: black !important;
-    font-size: 12pt;
-    line-height: 1.4;
+    font-size: 9pt;
+    line-height: 1.2;
     margin: 0;
     padding: 0;
   }
   
-  .cv-two-column {
+  .cv-two-page-container {
+    display: block;
+  }
+  
+  .cv-page {
     width: 210mm;
     height: 297mm;
     max-width: none;
     max-height: none;
     margin: 0;
-    padding: 10mm;
+    padding: 0;
     box-shadow: none;
     border: none;
     background: white;
     overflow: visible;
+    page-break-after: always;
+  }
+  
+  .cv-page:last-child {
+    page-break-after: auto;
+  }
+  
+  .cv-two-column {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
+    padding: 8mm;
   }
   
   .cv-sidebar {
     width: 70mm;
-    height: 277mm;
+    height: 100%;
     max-height: none;
     overflow: visible;
     padding: 0;
@@ -577,7 +673,7 @@
   
   .cv-main {
     width: 120mm;
-    height: 277mm;
+    height: 100%;
     max-height: none;
     overflow: visible;
     padding: 0 0 0 5mm;
@@ -639,17 +735,84 @@
   .cv-section {
     page-break-inside: avoid;
     page-break-before: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Prevent sections from being cut in half */
+  .cv-experience-item,
+  .cv-innovation-item,
+  .cv-education-item,
+  .cv-certificate-item,
+  .cv-project-item,
+  .cv-reference-item {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    orphans: 3;
+    widows: 3;
+  }
+  
+  /* Ensure skill groups don't break across pages */
+  .cv-skill-group {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    orphans: 2;
+    widows: 2;
+  }
+  
+  /* Prevent contact items from breaking */
+  .cv-contact {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Keep profile section together */
+  .cv-profile {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Additional print page break controls */
+  .cv-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  .cv-description {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Force better page breaks */
+  .cv-section:nth-child(n+3) {
+    page-break-before: auto;
+  }
+  
+  /* Ensure minimum content before page break */
+  .cv-experience-item,
+  .cv-innovation-item {
+    min-height: 2em;
+  }
+  
+  /* Force page break before Product Owner section */
+  .cv-experience-item:nth-child(4) {
+    margin-top: 2rem;
+    page-break-before: always;
+  }
+  
+  /* Alternative: Add space before Product Owner section specifically */
+  .cv-experience-item:has(.cv-experience-role:contains("Product Owner")) {
+    margin-top: 2rem;
+    page-break-before: always;
   }
   
   .cv-section-title {
-    font-size: 1rem;
-    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
   }
   
   .cv-experience-item {
-    margin-bottom: 0.75rem;
-    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.375rem;
     page-break-inside: avoid;
   }
   
@@ -658,7 +821,7 @@
   }
   
   .cv-experience-role {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
   
   .cv-experience-company-location {
@@ -672,12 +835,12 @@
   }
   
   .cv-experience-date {
-    font-size: 0.75rem;
+    font-size: 0.625rem;
   }
   
   .cv-experience-description {
-    line-height: 1.2;
-    font-size: 0.75rem;
+    line-height: 1.1;
+    font-size: 0.625rem;
   }
   
   .cv-innovation-item {
@@ -791,3 +954,134 @@
   {{ if $umami.domains }} data-domains="{{ $umami.domains }}" {{ end }}></script>
 <!-- End Umami Web Analytics -->
 {{- end }}
+
+<!-- PDF Download Button Styles -->
+<style>
+.pdf-download-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--cv-primary, #2563eb);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  transition: all 0.2s ease;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pdf-download-btn:hover {
+  background: var(--cv-primary-light, #3b82f6);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+}
+
+.pdf-download-btn:active {
+  transform: translateY(0);
+}
+
+.pdf-download-btn i {
+  font-size: 16px;
+}
+
+@media print {
+  .pdf-download-btn {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .pdf-download-btn {
+    top: 10px;
+    right: 10px;
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+}
+</style>
+
+<!-- PDF Generation Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Create PDF download button
+  const pdfBtn = document.createElement('button');
+  pdfBtn.className = 'pdf-download-btn';
+  pdfBtn.innerHTML = '<i class="fas fa-download"></i> Download PDF';
+  pdfBtn.title = 'Download resume as PDF';
+  
+  // Add button to page
+  document.body.appendChild(pdfBtn);
+  
+  // PDF generation function
+  pdfBtn.addEventListener('click', function() {
+    // Show loading state
+    pdfBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating...';
+    pdfBtn.disabled = true;
+    
+    // Get both pages
+    const page1 = document.querySelector('.cv-page-1');
+    const page2 = document.querySelector('.cv-page-2');
+    
+    if (!page1 || !page2) {
+      alert('Could not find resume pages');
+      pdfBtn.innerHTML = '<i class="fas fa-download"></i> Download PDF';
+      pdfBtn.disabled = false;
+      return;
+    }
+    
+    // Create new jsPDF instance
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF('portrait', 'mm', 'a4');
+    
+    // Function to capture and add page to PDF
+    function capturePage(element, pageNumber) {
+      return html2canvas(element, {
+        scale: 2,
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: '#ffffff',
+        width: 794,
+        height: 1123,
+        scrollX: 0,
+        scrollY: 0
+      }).then(canvas => {
+        const imgData = canvas.toDataURL('image/jpeg', 0.95);
+        
+        if (pageNumber > 1) {
+          pdf.addPage();
+        }
+        
+        // Add image to PDF (A4 size: 210x297mm)
+        pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
+      });
+    }
+    
+    // Capture page 1, then page 2
+    capturePage(page1, 1)
+      .then(() => capturePage(page2, 2))
+      .then(() => {
+        // Save the PDF
+        pdf.save('Gregor_Faurobert_Resume.pdf');
+        
+        // Reset button
+        pdfBtn.innerHTML = '<i class="fas fa-download"></i> Download PDF';
+        pdfBtn.disabled = false;
+      })
+      .catch((error) => {
+        console.error('PDF generation failed:', error);
+        alert('PDF generation failed. Please try again.');
+        pdfBtn.innerHTML = '<i class="fas fa-download"></i> Download PDF';
+        pdfBtn.disabled = false;
+      });
+  });
+});
+</script>

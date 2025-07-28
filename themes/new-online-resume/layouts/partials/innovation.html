@@ -1,6 +1,6 @@
 {{- $innovation := .data.innovation }}
-{{- if $innovation | and $innovation.show }}
-<section class="innovation" style="order: {{ $innovation.order | default 1 }}">
+{{- if and $innovation $innovation.show }}
+<section class="innovation"{{ with $innovation.order }} style="order: {{ . }}"{{ end }}>
   <div class="section-title">
     <i class="section-icon fa-solid fa-lightbulb"></i>
     <h2>{{ $innovation.title }}</h2>

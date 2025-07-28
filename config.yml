@@ -4,7 +4,7 @@ enableRobotsTXT: true
 languageCode: en
 
 title: Gregor Faurobert | Product Manager
-theme: online-resume
+theme: new-online-resume
 
 markup:
   goldmark:
