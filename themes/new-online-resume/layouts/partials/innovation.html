@@ -1,0 +1,54 @@
+{{- $innovation := .data.innovation }}
+{{- if and $innovation $innovation.show }}
+<section class="innovation"{{ with $innovation.order }} style="order: {{ . }}"{{ end }}>
+  <div class="section-title">
+    <i class="section-icon fa-solid fa-lightbulb"></i>
+    <h2>{{ $innovation.title }}</h2>
+  </div>
+
+  <div class="section-content">
+    {{- if $innovation.description }}
+    <div class="description markdown">
+      {{ $innovation.description | markdownify }}
+    </div>
+    {{- end }}
+
+    {{- if $innovation.items }}
+    <div class="items">
+      {{- range $item := $innovation.items }}
+      <div class="item">
+
+        {{- if $item.name }}
+        <div class="row">
+          <div class="innovation-name">
+            {{- if $item.link }}
+            <a href="{{ $item.link }}" target="_blank">{{ $item.name }}</a>
+            {{- else }}
+            <span>{{ $item.name }}</span>
+            {{- end }}
+            {{- if $item.tags }}
+            <small>[{{ $item.tags }}]</small>
+            {{- end }}
+          </div>
+
+          {{- if $item.date }}
+          <div class="date">
+            <span>{{ $item.date }}</span>
+          </div>
+          {{- end }}
+        </div>
+
+        {{- if $item.description }}
+        <div class="description markdown">
+          {{ $item.description | markdownify }}
+        </div>
+        {{- end }}
+        {{- end }}
+
+      </div>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{- end }} 
