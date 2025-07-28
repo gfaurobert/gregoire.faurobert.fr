@@ -1,6 +1,6 @@
 basic:
   name: Gregor Faurobert                      # name
-  #title: Senior Product Manager | Product Innovation & Strategy | AI/ML Enthusiast           # job title
+  title: Senior Product Manager | Product Innovation & Strategy | AI/ML Enthusiast           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /images/avatar.jpg        # avatar file path
@@ -66,7 +66,7 @@ contact:
   freelancer:              # username          | https://www.freelancer.com/u/username
 
   # social media
-  twitter: gfaurobert                # username          | https://x.com/username
+  twitter: gfaurobert                # username          | https://twitter.com/username
   mastodon:                # username@server
   instagram:               # username          | https://instagram.com/username
   unsplash:                # username          | https://unsplash.com/@username
@@ -84,7 +84,7 @@ contact:
 experience:
   show: true
   order: 3
-  title: Career Summary
+  title: Experiences
 #  description: |
 #    ### More than a decade in conducting Clinical Trials!
     
@@ -95,21 +95,19 @@ experience:
       tags: Full-time
       date: 2024.07 - present
       role: Senior Product Manager
-      location: Wiesentheid, Germany
+      location: Wiesentheid
       description: |
-        **KEY ACHIEVEMENTS**
-        + Designed and implemented an AI-enhanced translation management workflow; boosting translation scalability and improving delivery speed
-        + Spearheaded the creation of an AI Vision agent prototype to effectively decipher unreadable manual writing for translation processes
-        + Nurtured trusted professional stakeholder relationships, serving as a trusted point of consultation across the highest seniority levels
-        + Leveraged Agile methodologies and frameworks to drive effective and positive project outcomes
-        + Engaged with continuous knowledge development relating to latest advancements to expand personal understanding and impact
-        
-        **RESPONSIBILITIES**
-        + Fully accountable for directing entire product lifecycles requirement gathering through to ideation, development, and deployment
-        + Supervise and guide cross-functional teams, allocating project workload based on technical strengths
-        + Assist the technical upskilling and professional growth of junior professionals through tailored coaching and training
-        + Set strategic product goals, monitor continued progress, and devise tailored strategies to mitigate potential deviations
-        + Undertake extensive market and domain analysis to inform decision-making
+        + **Responsabilities**
+          + Market analysis
+          + Domain analysis
+          + Product lean business case
+          + Vision & roadmap
+          + Ideation & requirement engineering
+          + Business use cases & user stories
+          + Stakeholders inputs moderation
+          + Product release readiness
+          + Training & piloting
+          + Success & lessons learned
 
     - company: Clario.
       link: 'https://clario.com/'
@@ -118,35 +116,35 @@ experience:
       role: Product Manager
       location: Würzburg
       description: |
-        **KEY ACHIEVEMENTS**
-        + Created and deployed a domain-specific language and visual editor for designing multiple phase clinical trials; reducing study build time by 60%
-        + Drove a culture of continuous improvement by spearheading post-deployment assessment activities
-        + Combined high volumes of user feedback, market research, and data-driven metrics to steer product success
-        + Helped employees adapt to new products through in-depth guidance and the distribution of well-structured documentation
-
-        **RESPONSIBILITIES**
-        + Oversaw the delivery of new product developments focused on empowering clinical trial designers to unlock better evidence
-        + Liaised with stakeholders to prioritise and define product requirements
-        + Handled end-to-end testing processes, while addressing notable bugs and issues, to ensure product release readiness
-        + Reported on project progress to stakeholders across all levels of business
+        Empowering clinical trial designers to unlock better evidence.
+        + **Responsabilities**
+          + Market analysis
+          + Domain analysis
+          + Product lean business case
+          + Vision & roadmap
+          + Ideation & requirement engineering
+          + Business use cases & user stories
+          + Stakeholders inputs moderation
+          + Product release readiness
+          + Training & piloting
+          + Success & lessons learned
 
     - company: eResearch Technology GmbH
       link: 'https://clario.com/'
       tags: Full-time
       date: 2020.11 - 2021.12
       role: Product Owner
-      location: Würzburg, Germany
+      location: Würzburg
       description: |
-        **KEY ACHIEVEMENTS**
-        + Progressed into a Product Owner role after demonstrating exceptional technical instincts and leadership qualities across a decade-long period
-        + Oversaw the seamless transition from monolithic clinical trial portals to microservices, enabling improved scalability and maintainability
-
-        **RESPONSIBILITIES**
-        + Directed end-to-end project activities centred on maximising the value of Cardiology and Respiratory solutions
-        + Led cross-functional teams to deliver on protocol and technical requirements
-        + Coordinated development team reviews and prioritised items in product backlogs to ensure availability for future trials
-        + Strategised with developers to implement new features and modifications
-
+        Maximising value of Cardiology and Respiratory solutions
+        + **Responsibilities**
+          + Daily team management
+          + Backlog refinement
+          + Collect stakeholders feedback
+          + Program increment planning
+          + Iteration planning & review
+          + Software documentation
+          + Software demo
 
           
     - company: eResearch Technology GmbH
@@ -154,43 +152,27 @@ experience:
       tags: Full-time
       date: 2015.07 - 2020.11
       role: Project Manager
-      location: Würzburg, Germany
+      location: Würzburg
       description: |
-        **KEY ACHIEVEMENTS**
-        + Spearheaded the successful execution of twelve phase III clinical trials within demanding deadlines and quality expectations
-        + Recognised for resolving high-risk customer issues with empathy, attention to detail, and strong communication
-        + Facilitated seamless onboarding by providing technical guidance to users
-        + Supported long-term beneficial relationships by upholding excellent standards of stakeholder satisfaction
-
-        **RESPONSIBILITIES**
-        + Acted as primary customer point-of-contact during implementation and post-deployment
-        + Served as designated Subject Matter Expert for respiratory assessments
-        + Managed customer escalations, post-sales change requests, and risk mitigation plans
-        + Ensured full compliance with applicable regulations, such as 21 CFR Part 11
+        Delivering solutions for Respiratory studies
+        + **Responsibilities**
+          + Acted as primary customer point-of-contact during implementation and post-deployment
+          + Led cross-functional teams to deliver on protocol and technical requirements
+          + Managed customer escalations, post-sales change requests, and risk mitigation plans
+          + Ensured successful onboarding, training, and user adoption
+          + Maintained regulatory compliance (e.g. 21 CFR Part 11) and coordinated hardware/software delivery
+          + Drove stakeholder satisfaction and supported long-term relationships
+        + **Achievements**
+          + Recognized for resolving high-risk customer issues with empathy, technical acumen, and strong communication
+          + Conducted successfully a dozen of phase III clinical trials
+          + Subject matter expert for respiratory asssessments
         
-    - company: eResearch Technology GmbH
-      link: 'https://clario.com/'
-      tags: Full-time
-      date: 2011.05 - 2015.07
-      role: Data Manager
-      location: Würzburg, Germany
-      description: |
-        **KEY ACHIEVEMENTS**
-        + Established a Suite of Scripts for automating Query & Data Maintenance
-
-        **RESPONSIBILITIES**
-        + Oversaw the management and maintenance of critical product data
-        + Held oversight for performing data cleaning activities and plausibility checks
-        + Shaped and updated short-and-long-term management plans
-
 profile:
   show: true
   order: 1
-  title: Professional Profile
+  title: About me
   description: |
-    #### Highly dedicated and skilled professional with a wealth of experience spearheading impactful product development lifecycles within the Life Sciences field. Equally proven in directing cross-functional teams to the delivery of scalable, data-informed solutions.
-    #### Regarded as a proficient user of AI coding tools and agents with the capacity to build production-ready applications. Possesses a deep theoretical and practical understanding of AI-related tools, such as LLM, Agent, and Vision.
-    #### Highlighted as a dedicated leader with a passion for mentoring and supporting technical professionals. Uses excellent multilingual communication to collaborate across all levels. Demonstrates a proven commitment to professional growth and technical upskilling.
+    ### Experienced **Product Manager** with **5+ years** leading **innovative solutions** in highly **regulated** environments. Passionate about transforming complex systems through **data-driven strategy**, **lean product development**, and **rapid prototyping**. Proven ability to manage **full product lifecycles**, drive **cross-functional alignment**, and launch **scalable solutions**.
     
 #    Since the advent of Large Language Model (LLM) and AGI, I have been exploring LLM applications.
     
@@ -227,37 +209,100 @@ project:
 skill:
   show: true
   order: 4
-  title: Competencies
+  title: Skills
+  #~ description: |
+    #~ The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
+
+    #~ The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
+
+    #~ When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
+
+    #~ There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
+
+  #~ items:
+    #~ - name: Clinical Trials
+      #~ level: 5
+    #~ - name: Product 
+    #~ - name: Project Management
+      #~ level: 5
+    #~ - name: Data Management
+      #~ level: 5
+    #~ - name: Email communication
+      #~ level: 5
+    #~ - name: Presentation
+      #~ level: 5
+    #~ - name: Story Telling
+      #~ level: 3
+    #~ - name: Requirement Engineering
+      #~ level: 3
+    #~ - name: Domain Specific Language
+      #~ level: 3
+    #~ - name: Domain Modelling
+      #~ level: 2
+    #~ - name: Software Architecture
+      #~ level: 2
+
   groups:
-    - name: Competencies
-      item:
-        - Product & Project Management
-        - Technical Acumen
-        - Operational Transformation
-        - Strategic Planning & Execution
-        - Design & Development
-        - Solution Implementation
-        - Risk Mitigation
-        - GCP & Regulatory compliance
-        - Market & User Research
-        - Stakeholder Alignment
-        - Reporting & Presenting
-        - Innovative Leadership
-        - Cross-Collaboration
-        - Team Building & Training
-        - Coaching & Mentoring
-        - Multilingual Communication (English, French, German)
-        - Critical & Creative Thinking
+  - name: Product Strategy & Lifecycle
+    item:
+      - Product vision & roadmap
+      - Innovation leadership
+      - Product launch & adoption
+      - Stakeholder alignment
+      - Storytelling & evangelism
+
+  - name: Market & User Research
+    item:
+      - Discovery & user interviews
+      - Competitive analysis
+      - Industry insights
+      - Surveys & trend monitoring
+
+  - name: Prototyping & Innovation Tooling
+    item:
+      - Rapid prototyping (v0.dev, Cursor, ChatGPT)
+      - MVP testing
+      - Design-to-code workflows
+      - LLM toolchains
+
+  - name: Requirement Engineering
+    item:
+      - Business use cases
+      - Epics & user stories
+      - Domain modeling
+      - UX/UI wireframes
+
+  - name: Team Collaboration & Leadership
+    item:
+      - Sprint planning & review
+      - Cross-functional facilitation
+      - Workshop organization
+      - Mentoring dev & QA teams
+
+  - name: Biotech & Clinical Trials
+    item:
+      - GCP & regulatory compliance
+      - eCOA, ePRO, eClinRO
+      - Study build & assessment design
+      - Respiratory & cardiac safety
+
+  - name: Customer Success & Delivery
+    item:
+      - Risk & issue management
+      - Stakeholder communication
+      - Relationship building
+      - Escalation handling
+
 
 innovation:
-  show: false
+  show: true
   order: 2
-  title: Key Achievements
+  title: Innovation Highlights
   #description: |
   #  Key innovative projects and solutions that demonstrate creative problem-solving and forward-thinking approaches.
   items:
 
-    - name: Led AI-Enhanced Translation Workflow Modernization
+    - name: Automated Translation Workflow Modernization
       date: 2024
       description: |
         + **Innovation**: Designed and implemented an AI-enhanced translation management workflow.
@@ -281,29 +326,16 @@ innovation:
         + **Technology**: Containerized services with API-first design
         + **Outcome**: Reduced deployment time and increased system reliability
 
-    - name: Automated Data Management Processes
-      date: 2015
-      description: |
-        + **Innovation**: Built a suite of scripts to streamline query and data maintenance
-        + **Impact**: Improved data accuracy and reduced manual errors
-        + **Technology**: Custom data validation framework
-        + **Outcome**: Streamlined data management for clinical trials, enabling faster data analysis and reporting
-
 education:
   show: true
   order: 6
-  title: Education & Professional Development
+  title: Education
   #~ description: |
     #~ The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
 
     #~ In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
 
   items:
-    - institution: Professional Scrum Product Owner
-      link: 'https://www.scrum.org/user/721699'
-      degree: Scrum.org
-      date: 2020
-
     - institution: Université de Toulon
       link: 'https://www.univ-tln.fr/'
       date: 2007 - 2010
@@ -325,7 +357,7 @@ education:
         #~ + Second
 
 certificate:
-  show: false
+  show: true
   order: 7
   title: Certificates
   #~ description: |
@@ -342,6 +374,7 @@ certificate:
       issuer: Scrum.org
       date: 2020
       link: 'https://www.scrum.org/user/721699'
+      #~ description: |
         #~ It's my Example Certificate One by Example.
     #~ - name: Example Certificate Two
       #~ issuer: by Example
@@ -434,7 +467,7 @@ organization:
     This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
 
 language:
-  show: false
+  show: true
   order: 12
   title: Languages
   #~ description: |
@@ -492,5 +525,33 @@ reference:
     #~ It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
 
   items:
-    - name: Available upon request
+    - name: Mike Vogel
+      link: 'https://www.linkedin.com/in/jamesmichaelvogel/'
+      title: Solution Architect
+      institution: Accenture
+      email: mike.vogel@accenture.com
+
+
+    - name: Markus Völter
+      link: 'https://voelter.de/'
+      title: Language Engineering Expert
+      institution: Voelter Ingenieurbüro
+      email: voelter@acm.org
+
+    - name: Christian Bechinie von Lazan
+      link: 'https://www.linkedin.com/in/christian-bechinie-von-lazan-99505041/'
+      title: Senior Director, Product Management
+      institution: Clario.
+      email: christian.bechinievonlazan@clario.com
     
+    - name: Günther Hirsch
+      link: 'https://www.linkedin.com/in/guenther-hirsch-28094b73/'
+      title: Manager, Project Management
+      institution: Clario.
+      email: guenther.hirsch@clario.com
+
+    - name: Regan Delaney
+      link: 'https://www.linkedin.com/in/regandelaney/'
+      title: Head of Product
+      institution: Welocalize.
+      email: regan.delaney@welocalize.com

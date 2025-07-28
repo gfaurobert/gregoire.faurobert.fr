@@ -1,0 +1,209 @@
+{{- $data := .data -}}
+<div class="cv-two-column">
+  <!-- Left Sidebar -->
+  <div class="cv-sidebar">
+    <!-- Profile Section -->
+    <div class="cv-profile">
+      {{- if $data.basic.avatar.show -}}
+        <img class="cv-avatar" src="{{ $data.basic.avatar.path }}" alt="{{ $data.basic.name }}">
+      {{- end -}}
+      <h1 class="cv-name">{{ $data.basic.name }}</h1>
+      <p class="cv-title">{{ $data.basic.title }}</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="cv-contact">
+      {{- if $data.contact.location -}}
+        <div class="cv-contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>{{ $data.contact.location }}</span>
+        </div>
+      {{- end -}}
+      {{- if $data.contact.email -}}
+        <div class="cv-contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:{{ $data.contact.email }}">{{ $data.contact.email }}</a>
+        </div>
+      {{- end -}}
+      {{- if $data.contact.phone -}}
+        <div class="cv-contact-item">
+          <i class="fas fa-phone"></i>
+          <a href="tel:{{ $data.contact.phone }}">{{ $data.contact.phone }}</a>
+        </div>
+      {{- end -}}
+      {{- if $data.contact.website -}}
+        <div class="cv-contact-item">
+          <i class="fas fa-globe"></i>
+          <a href="https://{{ $data.contact.website }}" target="_blank">{{ $data.contact.website }}</a>
+        </div>
+      {{- end -}}
+      
+      <!-- Social Networks in 2 columns -->
+      <div class="cv-social-networks">
+        {{- if $data.contact.linkedin -}}
+          <div class="cv-social-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://linkedin.com/in/{{ $data.contact.linkedin }}" target="_blank">LinkedIn</a>
+          </div>
+        {{- end -}}
+        {{- if $data.contact.github -}}
+          <div class="cv-social-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/{{ $data.contact.github }}" target="_blank">GitHub</a>
+          </div>
+        {{- end -}}
+        {{- if $data.contact.youtube -}}
+          <div class="cv-social-item">
+            <i class="fab fa-youtube"></i>
+            <a href="https://www.youtube.com/@{{ $data.contact.youtube }}" target="_blank">YouTube</a>
+          </div>
+        {{- end -}}
+        {{- if $data.contact.twitter -}}
+          <div class="cv-social-item">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/{{ $data.contact.twitter }}" target="_blank">Twitter</a>
+          </div>
+        {{- end -}}
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    {{- if $data.skill.show -}}
+      <div class="cv-skills">
+        {{- range $data.skill.groups -}}
+          <div class="cv-skill-group">
+            <h3 class="cv-skill-group-title">{{ .name }}</h3>
+            <div class="cv-skill-items">
+              {{- range .item -}}
+                <span class="cv-skill-item">{{ . }}</span>
+              {{- end -}}
+            </div>
+          </div>
+        {{- end -}}
+      </div>
+    {{- end -}}
+
+    <!-- Languages Section -->
+    {{- if $data.language.show -}}
+      <div class="cv-languages">
+        {{- range $data.language.items -}}
+          <div class="cv-language-item">
+            <span class="cv-language-name">{{ .idiom }}</span>
+            <span class="cv-language-level">{{ .level }}</span>
+          </div>
+        {{- end -}}
+      </div>
+    {{- end -}}
+
+    <!-- Education Section -->
+    {{- if $data.education.show -}}
+      <div class="cv-education-sidebar">
+        <h3 class="cv-sidebar-section-title">{{ $data.education.title }}</h3>
+        {{- range $data.education.items -}}
+          <div class="cv-education-sidebar-item">
+            <div class="cv-education-institution">{{ .institution }}</div>
+            <div class="cv-education-degree">{{ .degree }} in {{ .major }}</div>
+            <div class="cv-education-date">{{ .date }}</div>
+          </div>
+        {{- end -}}
+      </div>
+    {{- end -}}
+
+    <!-- Certificates Section -->
+    {{- if $data.certificate.show -}}
+      <div class="cv-certificates-sidebar">
+        <h3 class="cv-sidebar-section-title">{{ $data.certificate.title }}</h3>
+        {{- range $data.certificate.items -}}
+          <div class="cv-certificate-sidebar-item">
+            <div class="cv-certificate-name">{{ .name }}</div>
+            <div class="cv-certificate-issuer">{{ .issuer }}</div>
+            <div class="cv-certificate-date">{{ .date }}</div>
+          </div>
+        {{- end -}}
+      </div>
+    {{- end -}}
+
+    <!-- Projects Section -->
+    {{- if $data.project.show -}}
+      <div class="cv-projects-sidebar">
+        <h3 class="cv-sidebar-section-title">{{ $data.project.title }}</h3>
+        {{- range $data.project.items -}}
+          <div class="cv-project-sidebar-item">
+            <div class="cv-project-name">{{ .name }}</div>
+            <div class="cv-project-date">{{ .date }}</div>
+            <div class="cv-project-description">{{ .description | markdownify }}</div>
+          </div>
+        {{- end -}}
+      </div>
+    {{- end -}}
+
+    <!-- References Section -->
+    {{- if $data.reference.show -}}
+      <div class="cv-references">
+        <h3 class="cv-sidebar-section-title">{{ $data.reference.title }}</h3>
+        {{- range $data.reference.items -}}
+          <div class="cv-reference-item">
+            <div class="cv-reference-name">{{ .name }}</div>
+            <div class="cv-reference-title">{{ .title }}</div>
+            <div class="cv-reference-company">{{ .institution }}</div>
+          </div>
+        {{- end -}}
+      </div>
+    {{- end -}}
+  </div>
+
+  <!-- Right Main Content -->
+  <div class="cv-main">
+    <!-- About Me Section -->
+    {{- if $data.profile.show -}}
+      <div class="cv-section">
+        <h2 class="cv-section-title">{{ $data.profile.title }}</h2>
+        <div class="cv-section-content">
+          <div class="cv-description">{{ $data.profile.description | markdownify }}</div>
+        </div>
+      </div>
+    {{- end -}}
+
+    <!-- Key Achievements Section -->
+    {{- if $data.innovation.show -}}
+      <div class="cv-section">
+        <h2 class="cv-section-title">{{ $data.innovation.title }}</h2>
+        <div class="cv-innovation">
+          {{- range $data.innovation.items -}}
+            <div class="cv-innovation-item">
+              <h3 class="cv-innovation-title">{{ .name }}</h3>
+              <div class="cv-innovation-date">{{ .date }}</div>
+              <div class="cv-innovation-description">{{ .description | markdownify }}</div>
+            </div>
+          {{- end -}}
+        </div>
+      </div>
+    {{- end -}}
+
+    <!-- Experience Section -->
+    {{- if $data.experience.show -}}
+      <div class="cv-section">
+        <h2 class="cv-section-title">{{ $data.experience.title }}</h2>
+        <div class="cv-experience">
+          {{- range $data.experience.items -}}
+            <div class="cv-experience-item">
+              <div class="cv-experience-header">
+                <div class="cv-experience-role">{{ .role }}</div>
+                <div class="cv-experience-date">{{ .date }}</div>
+              </div>
+              <div class="cv-experience-company-location">
+                <span class="cv-experience-company">{{ .company }}</span>
+                {{- if .location -}}
+                  <span class="cv-experience-location">{{ .location }}</span>
+                {{- end -}}
+              </div>
+              <div class="cv-experience-description">{{ .description | markdownify }}</div>
+            </div>
+          {{- end -}}
+        </div>
+      </div>
+    {{- end -}}
+
+
+  </div>
+</div> 
