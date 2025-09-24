@@ -1,27 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-<<<<<<< HEAD
-	<meta name="generator" content="Hugo 0.148.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-=======
-	<meta name="generator" content="Hugo 0.148.2"><meta charset="utf-8">
->>>>>>> abdcfb4a326ef813ba1069eada9660d39e52bb25
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Gregor Faurobert | Product Manager">
-<meta property="og:title" content="Gregor Faurobert | Product Manager">
+<meta name="description" content="{{ if .Site.Params.open }}{{ if .Site.Params.description }}{{ .Site.Params.description }}{{ else }}{{ .Title }}{{ end }}{{ else }}Online Resume{{ end }}">
+
+{{- if .Site.Params.open | and .Site.Params.openGraph.enable }}
+<meta property="og:title" content="{{ .Title }}">
 <meta property="og:type" content="profile">
-<meta property="og:image" content="/images/avatar.jpg">
-<meta property="og:url" content="/">
-<title>Gregor Faurobert | Product Manager</title>
+<meta property="og:image" content="{{ .Site.Params.openGraph.image | absURL }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{- if .Site.Params.description }}
+<meta property="og:description" content="{{ .Site.Params.description }}">
+{{- end }}
+{{- end }}
+
+{{- if .Site.Params.open }}
+<title>{{ .Site.Title | safeHTML }}</title>
+{{- else }}
+<title>Online Resume</title>
+{{- end }}
 
 <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/assets/icons/css/all.css">
-<link rel="stylesheet" href="/assets/css/main.min.368ccdc17baa7c44edaadd5abc4e3ef1de5bc28f3e3bbbc7549ce9261b91aded.css" integrity="sha256-NozNwXuqfETtqt1avE4&#43;8d5bwo8&#43;O7vHVJzpJhuRre0=">
+{{- $themeScss := "sass/main.scss" }}
+{{- $options := (dict "targetPath" "assets/css/main.css" "outputStyle" "compressed") }}
+{{- $themeCss := resources.Get $themeScss | resources.ExecuteAsTemplate $themeScss . | toCSS $options | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $themeCss.RelPermalink }}" integrity="{{ $themeCss.Data.Integrity }}">
 
-
+<!-- Two-Column CV Styles -->
 <style>
- 
+/* Two-Column CV Layout Styles - A4 Optimized for 2 Pages */
 :root {
   --cv-primary: #2563eb;
   --cv-primary-light: #3b82f6;
@@ -44,7 +51,7 @@
   --cv-margin: 8mm;
 }
 
- 
+/* Two-page container */
 .cv-two-page-container {
   display: flex;
   flex-direction: column;
@@ -52,7 +59,7 @@
   gap: 20px;
 }
 
- 
+/* Individual page styling */
 .cv-page {
   width: var(--cv-page-width);
   height: var(--cv-page-height);
@@ -525,7 +532,7 @@
   line-height: 1.6;
 }
 
- 
+/* Page break controls for PDF generation */
 .cv-experience-item,
 .cv-innovation-item,
 .cv-education-item,
@@ -555,7 +562,7 @@
   page-break-inside: avoid;
 }
 
- 
+/* Additional page break controls */
 .cv-section {
   break-inside: avoid;
   page-break-inside: avoid;
@@ -566,30 +573,30 @@
   page-break-inside: avoid;
 }
 
- 
+/* Force page breaks before major sections if needed */
 .cv-section:nth-child(n+3) {
   page-break-before: auto;
 }
 
- 
+/* Ensure minimum content before page break */
 .cv-experience-item,
 .cv-innovation-item {
   min-height: 2em;
 }
 
- 
+/* Add space before specific sections to force better page breaks */
 .cv-experience-item:nth-child(4) {
   margin-top: 2rem;
   page-break-before: always;
 }
 
- 
+/* Alternative: Add space before Product Owner section specifically */
 .cv-experience-item:has(.cv-experience-role:contains("Product Owner")) {
   margin-top: 2rem;
   page-break-before: always;
 }
 
- 
+/* Responsive design */
 @media (max-width: 768px) {
   .cv-two-column {
     flex-direction: column;
@@ -610,7 +617,7 @@
   }
 }
 
- 
+/* Print styles */
 @media print {
   body {
     background: white !important;
@@ -731,7 +738,7 @@
     margin-bottom: 0.75rem;
   }
   
-   
+  /* Prevent sections from being cut in half */
   .cv-experience-item,
   .cv-innovation-item,
   .cv-education-item,
@@ -744,7 +751,7 @@
     widows: 3;
   }
   
-   
+  /* Ensure skill groups don't break across pages */
   .cv-skill-group {
     page-break-inside: avoid;
     break-inside: avoid;
@@ -752,19 +759,19 @@
     widows: 2;
   }
   
-   
+  /* Prevent contact items from breaking */
   .cv-contact {
     page-break-inside: avoid;
     break-inside: avoid;
   }
   
-   
+  /* Keep profile section together */
   .cv-profile {
     page-break-inside: avoid;
     break-inside: avoid;
   }
   
-   
+  /* Additional print page break controls */
   .cv-section {
     page-break-inside: avoid;
     break-inside: avoid;
@@ -775,24 +782,24 @@
     break-inside: avoid;
   }
   
-   
+  /* Force better page breaks */
   .cv-section:nth-child(n+3) {
     page-break-before: auto;
   }
   
-   
+  /* Ensure minimum content before page break */
   .cv-experience-item,
   .cv-innovation-item {
     min-height: 2em;
   }
   
-   
+  /* Force page break before Product Owner section */
   .cv-experience-item:nth-child(4) {
     margin-top: 2rem;
     page-break-before: always;
   }
   
-   
+  /* Alternative: Add space before Product Owner section specifically */
   .cv-experience-item:has(.cv-experience-role:contains("Product Owner")) {
     margin-top: 2rem;
     page-break-before: always;
@@ -885,7 +892,7 @@
     font-size: 0.625rem;
   }
   
-   
+  /* Ensure no background colors or shadows in print */
   .cv-experience-item,
   .cv-innovation-item,
   .cv-education-sidebar-item,
@@ -896,12 +903,12 @@
     border: 1px solid #e0e0e0 !important;
   }
   
-   
+  /* Hide any non-essential elements */
   .cv-contact-item a:hover {
     color: inherit !important;
   }
   
-   
+  /* Ensure text colors are readable in print */
   .cv-text-primary {
     color: black !important;
   }
@@ -920,9 +927,35 @@
 }
 </style>
 
+{{- if .Site.Params.analytics.google }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics.google }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', '{{ .Site.Params.analytics.google }}');
+</script>
+{{- end }}
 
+{{- if .Site.Params.analytics.cloudflare }}
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+  data-cf-beacon='{"token": "{{ .Site.Params.analytics.cloudflare }}"}'></script>
+<!-- End Cloudflare Web Analytics -->
+{{- end }}
 
+{{ $umami := .Site.Params.analytics.umami }}
+{{- if $umami.script | and $umami.websiteID }}
+<!-- Umami Web Analytics -->
+<script async defer src="{{ $umami.script }}"
+  data-website-id="{{ $umami.websiteID }}"
+  {{ if $umami.domains }} data-domains="{{ $umami.domains }}" {{ end }}></script>
+<!-- End Umami Web Analytics -->
+{{- end }}
+
+<!-- PDF Download Button Styles -->
 <style>
 .pdf-download-btn {
   position: fixed;
@@ -974,27 +1007,27 @@
 }
 </style>
 
-
+<!-- PDF Generation Script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  
+  // Create PDF download button
   const pdfBtn = document.createElement('button');
   pdfBtn.className = 'pdf-download-btn';
   pdfBtn.innerHTML = '<i class="fas fa-download"></i> Download PDF';
   pdfBtn.title = 'Download resume as PDF';
   
-  
+  // Add button to page
   document.body.appendChild(pdfBtn);
   
-  
+  // PDF generation function
   pdfBtn.addEventListener('click', function() {
-    
+    // Show loading state
     pdfBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating...';
     pdfBtn.disabled = true;
     
-    
+    // Get both pages
     const page1 = document.querySelector('.cv-page-1');
     const page2 = document.querySelector('.cv-page-2');
     
@@ -1005,11 +1038,11 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
     
-    
+    // Create new jsPDF instance
     const { jsPDF } = window.jspdf;
     const pdf = new jsPDF('portrait', 'mm', 'a4');
     
-    
+    // Function to capture and add page to PDF
     function capturePage(element, pageNumber) {
       return html2canvas(element, {
         scale: 2,
@@ -1027,19 +1060,19 @@ document.addEventListener('DOMContentLoaded', function() {
           pdf.addPage();
         }
         
-        
+        // Add image to PDF (A4 size: 210x297mm)
         pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
       });
     }
     
-    
+    // Capture page 1, then page 2
     capturePage(page1, 1)
       .then(() => capturePage(page2, 2))
       .then(() => {
-        
+        // Save the PDF
         pdf.save('Gregor_Faurobert_Resume.pdf');
         
-        
+        // Reset button
         pdfBtn.innerHTML = '<i class="fas fa-download"></i> Download PDF';
         pdfBtn.disabled = false;
       })
@@ -1052,219 +1085,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-</head>
-
-  <body><div class="cv-two-page-container">
-  
-  <div class="cv-page cv-page-1">
-    <div class="cv-two-column">
-      
-      <div class="cv-sidebar">
-        
-        <div class="cv-profile"><img class="cv-avatar" src="/images/avatar.jpg" alt="Gregor Faurobert"><h1 class="cv-name">Gregor Faurobert</h1>
-          <p class="cv-title"></p>
-        </div>
-
-        
-        <div class="cv-contact"><div class="cv-contact-item">
-              <i class="fas fa-map-marker-alt"></i>
-              <span>Wiesentheid, Germany</span>
-            </div><div class="cv-contact-item">
-              <i class="fas fa-envelope"></i>
-              <a href="mailto:gregoire@faurobert.fr">gregoire@faurobert.fr</a>
-            </div><div class="cv-contact-item">
-              <i class="fas fa-phone"></i>
-              <a href="tel:&#43;49%20176%203268%202817">&#43;49 176 3268 2817</a>
-            </div><div class="cv-contact-item">
-              <i class="fas fa-globe"></i>
-              <a href="https://gregoire.faurobert.fr" target="_blank">gregoire.faurobert.fr</a>
-            </div>
-          <div class="cv-social-networks"><div class="cv-social-item">
-                <i class="fab fa-linkedin"></i>
-                <a href="https://linkedin.com/in/gfaurobert" target="_blank">LinkedIn</a>
-              </div><div class="cv-social-item">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/gfaurobert" target="_blank">GitHub</a>
-              </div><div class="cv-social-item">
-                <i class="fab fa-youtube"></i>
-                <a href="https://www.youtube.com/@salutlespm" target="_blank">YouTube</a>
-              </div><div class="cv-social-item">
-                <i class="fab fa-twitter"></i>
-                <a href="https://twitter.com/gfaurobert" target="_blank">Twitter</a>
-              </div></div>
-        </div>
-
-        <div class="cv-skills"><div class="cv-skill-group">
-                <h3 class="cv-skill-group-title">Competencies</h3>
-                <div class="cv-skill-items"><span class="cv-skill-item">Product &amp; Project Management</span><span class="cv-skill-item">Technical Acumen</span><span class="cv-skill-item">Operational Transformation</span><span class="cv-skill-item">Strategic Planning &amp; Execution</span><span class="cv-skill-item">Design &amp; Development</span><span class="cv-skill-item">Solution Implementation</span><span class="cv-skill-item">Risk Mitigation</span><span class="cv-skill-item">GCP &amp; Regulatory compliance</span><span class="cv-skill-item">Market &amp; User Research</span><span class="cv-skill-item">Stakeholder Alignment</span><span class="cv-skill-item">Reporting &amp; Presenting</span><span class="cv-skill-item">Innovative Leadership</span><span class="cv-skill-item">Cross-Collaboration</span><span class="cv-skill-item">Team Building &amp; Training</span><span class="cv-skill-item">Coaching &amp; Mentoring</span><span class="cv-skill-item">Multilingual Communication (English, French, German)</span><span class="cv-skill-item">Critical &amp; Creative Thinking</span></div>
-              </div></div><div class="cv-education-sidebar">
-             <h3 class="cv-sidebar-section-title">Education &amp; Professional Development</h3><div class="cv-education-sidebar-item">
-                 <div class="cv-education-institution">Professional Scrum Product Owner</div>
-                 <div class="cv-education-degree">Scrum.org in </div>
-                 <div class="cv-education-date">2020</div>
-               </div><div class="cv-education-sidebar-item">
-                 <div class="cv-education-institution">Université de Toulon</div>
-                 <div class="cv-education-degree">Master in Information &amp; Communication</div>
-                 <div class="cv-education-date">2007 - 2010</div>
-               </div></div></div>
-
-      
-      <div class="cv-main">
-        <div class="cv-section">
-            <h2 class="cv-section-title">Professional Profile</h2>
-            <div class="cv-section-content">
-              <div class="cv-description"><h4 id="highly-dedicated-and-skilled-professional-with-a-wealth-of-experience-spearheading-impactful-product-development-lifecycles-within-the-life-sciences-field-equally-proven-in-directing-cross-functional-teams-to-the-delivery-of-scalable-data-informed-solutions">Highly dedicated and skilled professional with a wealth of experience spearheading impactful product development lifecycles within the Life Sciences field. Equally proven in directing cross-functional teams to the delivery of scalable, data-informed solutions.</h4>
-<h4 id="regarded-as-a-proficient-user-of-ai-coding-tools-and-agents-with-the-capacity-to-build-production-ready-applications-possesses-a-deep-theoretical-and-practical-understanding-of-ai-related-tools-such-as-llm-agent-and-vision">Regarded as a proficient user of AI coding tools and agents with the capacity to build production-ready applications. Possesses a deep theoretical and practical understanding of AI-related tools, such as LLM, Agent, and Vision.</h4>
-<h4 id="highlighted-as-a-dedicated-leader-with-a-passion-for-mentoring-and-supporting-technical-professionals-uses-excellent-multilingual-communication-to-collaborate-across-all-levels-demonstrates-a-proven-commitment-to-professional-growth-and-technical-upskilling">Highlighted as a dedicated leader with a passion for mentoring and supporting technical professionals. Uses excellent multilingual communication to collaborate across all levels. Demonstrates a proven commitment to professional growth and technical upskilling.</h4>
-</div>
-            </div>
-          </div><div class="cv-section">
-            <h2 class="cv-section-title">Career Summary</h2>
-            <div class="cv-experience"><div class="cv-experience-item">
-                  <div class="cv-experience-header">
-                    <div class="cv-experience-role">Senior Product Manager</div>
-                    <div class="cv-experience-date">2024.07 - present</div>
-                  </div>
-                  <div class="cv-experience-company-location">
-                    <span class="cv-experience-company">Welocalize</span><span class="cv-experience-location">Wiesentheid, Germany</span></div>
-                  <div class="cv-experience-description"><p><strong>KEY ACHIEVEMENTS</strong></p>
-<ul>
-<li>Designed and implemented an AI-enhanced translation management workflow; boosting translation scalability and improving delivery speed</li>
-<li>Spearheaded the creation of an AI Vision agent prototype to effectively decipher unreadable manual writing for translation processes</li>
-<li>Nurtured trusted professional stakeholder relationships, serving as a trusted point of consultation across the highest seniority levels</li>
-<li>Leveraged Agile methodologies and frameworks to drive effective and positive project outcomes</li>
-<li>Engaged with continuous knowledge development relating to latest advancements to expand personal understanding and impact</li>
-</ul>
-<p><strong>RESPONSIBILITIES</strong></p>
-<ul>
-<li>Fully accountable for directing entire product lifecycles requirement gathering through to ideation, development, and deployment</li>
-<li>Supervise and guide cross-functional teams, allocating project workload based on technical strengths</li>
-<li>Assist the technical upskilling and professional growth of junior professionals through tailored coaching and training</li>
-<li>Set strategic product goals, monitor continued progress, and devise tailored strategies to mitigate potential deviations</li>
-<li>Undertake extensive market and domain analysis to inform decision-making</li>
-</ul>
-</div>
-                </div><div class="cv-experience-item">
-                  <div class="cv-experience-header">
-                    <div class="cv-experience-role">Product Manager</div>
-                    <div class="cv-experience-date">2021.12 - 2024.04</div>
-                  </div>
-                  <div class="cv-experience-company-location">
-                    <span class="cv-experience-company">Clario.</span><span class="cv-experience-location">Würzburg</span></div>
-                  <div class="cv-experience-description"><p><strong>KEY ACHIEVEMENTS</strong></p>
-<ul>
-<li>Created and deployed a domain-specific language and visual editor for designing multiple phase clinical trials; reducing study build time by 60%</li>
-<li>Drove a culture of continuous improvement by spearheading post-deployment assessment activities</li>
-<li>Combined high volumes of user feedback, market research, and data-driven metrics to steer product success</li>
-<li>Helped employees adapt to new products through in-depth guidance and the distribution of well-structured documentation</li>
-</ul>
-<p><strong>RESPONSIBILITIES</strong></p>
-<ul>
-<li>Oversaw the delivery of new product developments focused on empowering clinical trial designers to unlock better evidence</li>
-<li>Liaised with stakeholders to prioritise and define product requirements</li>
-<li>Handled end-to-end testing processes, while addressing notable bugs and issues, to ensure product release readiness</li>
-<li>Reported on project progress to stakeholders across all levels of business</li>
-</ul>
-</div>
-                </div></div>
-          </div></div>
-    </div>
-  </div>
-
-  
-  <div class="cv-page cv-page-2">
-    <div class="cv-two-column">
-             
-       <div class="cv-sidebar">
-         <div class="cv-education-sidebar">
-               <h3 class="cv-sidebar-section-title">Education &amp; Professional Development (continued)</h3><div class="cv-education-sidebar-item">
-                   <div class="cv-education-institution">University of West of Scotland</div>
-                   <div class="cv-education-degree">Post Graduate Diploma in Multimedia and Web Authoring</div>
-                   <div class="cv-education-date">2009 - 2010</div>
-                 </div></div><div class="cv-projects-sidebar">
-             <h3 class="cv-sidebar-section-title">Side Projects</h3><div class="cv-project-sidebar-item">
-                 <div class="cv-project-name">Over The Hill (Progress Chart)</div>
-                 <div class="cv-project-date">2025</div>
-                 <div class="cv-project-description"><p>A web and desktop application designed to visualize project progress using Hill Charts</p>
-<ul>
-<li><a href="https://github.com/gfaurobert/over-the-hill">Github</a></li>
-<li><a href="https://gfaurobert.github.io/over-the-hill/">Documentation</a></li>
-</ul></div>
-               </div></div><div class="cv-references">
-            <h3 class="cv-sidebar-section-title">References</h3><div class="cv-reference-item">
-                <div class="cv-reference-name">Available upon request</div>
-                <div class="cv-reference-title"></div>
-                <div class="cv-reference-company"></div>
-              </div></div></div>
-
-      
-      <div class="cv-main">
-        <div class="cv-section">
-            <h2 class="cv-section-title">Career Summary (continued)</h2>
-            <div class="cv-experience"><div class="cv-experience-item">
-                  <div class="cv-experience-header">
-                    <div class="cv-experience-role">Product Owner</div>
-                    <div class="cv-experience-date">2020.11 - 2021.12</div>
-                  </div>
-                  <div class="cv-experience-company-location">
-                    <span class="cv-experience-company">eResearch Technology GmbH</span><span class="cv-experience-location">Würzburg, Germany</span></div>
-                  <div class="cv-experience-description"><p><strong>KEY ACHIEVEMENTS</strong></p>
-<ul>
-<li>Progressed into a Product Owner role after demonstrating exceptional technical instincts and leadership qualities across a decade-long period</li>
-<li>Oversaw the seamless transition from monolithic clinical trial portals to microservices, enabling improved scalability and maintainability</li>
-</ul>
-<p><strong>RESPONSIBILITIES</strong></p>
-<ul>
-<li>Directed end-to-end project activities centred on maximising the value of Cardiology and Respiratory solutions</li>
-<li>Led cross-functional teams to deliver on protocol and technical requirements</li>
-<li>Coordinated development team reviews and prioritised items in product backlogs to ensure availability for future trials</li>
-<li>Strategised with developers to implement new features and modifications</li>
-</ul>
-</div>
-                </div><div class="cv-experience-item">
-                  <div class="cv-experience-header">
-                    <div class="cv-experience-role">Project Manager</div>
-                    <div class="cv-experience-date">2015.07 - 2020.11</div>
-                  </div>
-                  <div class="cv-experience-company-location">
-                    <span class="cv-experience-company">eResearch Technology GmbH</span><span class="cv-experience-location">Würzburg, Germany</span></div>
-                  <div class="cv-experience-description"><p><strong>KEY ACHIEVEMENTS</strong></p>
-<ul>
-<li>Spearheaded the successful execution of twelve phase III clinical trials within demanding deadlines and quality expectations</li>
-<li>Recognised for resolving high-risk customer issues with empathy, attention to detail, and strong communication</li>
-<li>Facilitated seamless onboarding by providing technical guidance to users</li>
-<li>Supported long-term beneficial relationships by upholding excellent standards of stakeholder satisfaction</li>
-</ul>
-<p><strong>RESPONSIBILITIES</strong></p>
-<ul>
-<li>Acted as primary customer point-of-contact during implementation and post-deployment</li>
-<li>Served as designated Subject Matter Expert for respiratory assessments</li>
-<li>Managed customer escalations, post-sales change requests, and risk mitigation plans</li>
-<li>Ensured full compliance with applicable regulations, such as 21 CFR Part 11</li>
-</ul>
-</div>
-                </div><div class="cv-experience-item">
-                  <div class="cv-experience-header">
-                    <div class="cv-experience-role">Data Manager</div>
-                    <div class="cv-experience-date">2011.05 - 2015.07</div>
-                  </div>
-                  <div class="cv-experience-company-location">
-                    <span class="cv-experience-company">eResearch Technology GmbH</span><span class="cv-experience-location">Würzburg, Germany</span></div>
-                  <div class="cv-experience-description"><p><strong>KEY ACHIEVEMENTS</strong></p>
-<ul>
-<li>Established a Suite of Scripts for automating Query &amp; Data Maintenance</li>
-</ul>
-<p><strong>RESPONSIBILITIES</strong></p>
-<ul>
-<li>Oversaw the management and maintenance of critical product data</li>
-<li>Held oversight for performing data cleaning activities and plausibility checks</li>
-<li>Shaped and updated short-and-long-term management plans</li>
-</ul>
-</div>
-                </div></div>
-          </div></div>
-    </div>
-  </div>
-</div> 
-  </body>
-</html>

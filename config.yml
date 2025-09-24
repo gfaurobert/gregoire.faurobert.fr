@@ -4,7 +4,7 @@ enableRobotsTXT: true
 languageCode: en
 
 title: Gregor Faurobert | Product Manager
-theme: online-resume
+theme: new-online-resume
 
 markup:
   goldmark:
@@ -15,6 +15,7 @@ params:
   # Custom
   open: true                # show or hide your resume
   allowSearchEngines: true  # allow your resume indexing by search engine, 'true' or 'false'
+  twoColumnLayout: true     # enable two-column layout, 'true' or 'false'
   analytics:
     google:                 # google analytics
     cloudflare:             # cloudflare analytics
