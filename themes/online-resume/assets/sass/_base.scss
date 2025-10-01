@@ -4,14 +4,24 @@ html {
 }
 
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{12px}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background: $background-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* TEST RULE TO VERIFY CHANGES ARE APPLIED */
+.wrapper {
+  border: 2px solid red !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -34,17 +44,20 @@ p {
   margin-bottom: 0.25rem;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 2rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
 
-  ol, ul {
+  ol,
+  ul {
     margin-bottom: 0;
   }
 }
 
-b, strong {
+b,
+strong {
   font-weight: $base-font-weight * 1.50;
 }
 
@@ -71,7 +84,7 @@ small {
       display: flex;
       align-items: baseline;
 
-      font-size: $large-font-size;
+      font-size: 15px;
       color: $theme-color;
       margin-bottom: $spacing-unit / 2;
       padding: $spacing-unit / 10 0;
@@ -180,14 +193,14 @@ small {
       flex-basis: 100%;
 
       .name {
-        font-size: $huge-font-size;
+        font-size: 24px;
         margin-top: 0;
         margin-bottom: $spacing-unit / 4;
       }
 
       .title {
         color: $text-second-color;
-        font-size: $middle-font-size;
+        font-size: 13.5px;
         font-weight: $base-font-weight;
         margin-top: 0;
         margin-bottom: $spacing-unit / 4;
@@ -328,7 +341,7 @@ small {
   display: inline-flex;
   align-items: baseline;
   justify-content: center;
-  font-size: $small-font-size;
+  font-size: 10.5px;
 
   i {
     color: $heart-color;
