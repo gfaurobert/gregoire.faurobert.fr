@@ -1,7 +1,0 @@
-{{- define "main" }}
-  {{- if .Site.Params.twoColumnLayout -}}
-    {{- partial "two-column.html" (dict "Site" .Site "data" .Site.Data.data) }}
-  {{- else -}}
-    {{- partial "common.html" (dict "Site" .Site "data" .Site.Data.data) }}
-  {{- end }}
-{{- end }}

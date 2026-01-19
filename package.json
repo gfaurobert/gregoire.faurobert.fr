@@ -1,0 +1,20 @@
+{
+  "name": "cv-greg0r-faurobert-fr",
+  "version": "1.0.0",
+  "description": "Online CV of Gregor Faurobert",
+  "scripts": {
+    "serve": "serve public",
+    "dev": "serve public--cors",
+    "start": "pnpm run serve"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "static-site"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

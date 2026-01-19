@@ -1,0 +1,340 @@
+{
+  "basic": {
+    "name": "Gregor Faurobert",
+    "avatar": {
+      "show": true,
+      "path": "/images/avatar.jpg"
+    }
+  },
+  "contact": {
+    "location": "Wiesentheid, Deutschland",
+    "email": "gregoire@faurobert.fr",
+    "phone": "+49 176 3268 2817",
+    "website": "gregor.faurobert.fr",
+    "gender": null,
+    "birthday": null,
+    "nationality": null,
+    "visa": null,
+    "drivinglicense": null,
+    "wechat": null,
+    "whatsapp": null,
+    "telegram": null,
+    "messenger": null,
+    "line": null,
+    "viber": null,
+    "threema": null,
+    "github": "gfaurobert",
+    "gitlab": null,
+    "bitbucket": null,
+    "stackoverflow": null,
+    "leetcode": null,
+    "codeforces": null,
+    "codewars": null,
+    "codepen": null,
+    "tryhackme": null,
+    "googlescholar": null,
+    "researchgate": null,
+    "kaggle": null,
+    "orcid": null,
+    "figshare": null,
+    "devto": null,
+    "medium": null,
+    "wordpress": null,
+    "blogger": null,
+    "wikipedia": null,
+    "figma": null,
+    "behance": null,
+    "dribble": null,
+    "artstation": null,
+    "linkedin": "gfaurobert",
+    "indeed": null,
+    "xing": null,
+    "fiverr": null,
+    "freelancer": null,
+    "twitter": "gfaurobert",
+    "mastodon": null,
+    "instagram": null,
+    "unsplash": null,
+    "_500px": null,
+    "youtube": "salutlespm",
+    "tiktok": null,
+    "quora": null,
+    "zhihu": null,
+    "goodreads": null,
+    "strava": null,
+    "print": "Drucken!"
+  },
+  "experience": {
+    "show": true,
+    "order": 3,
+    "title": "Beruflicher Werdegang",
+    "items": [
+      {
+        "company": "Welocalize",
+        "link": "https://welocalize.com/",
+        "tags": "Vollzeit",
+        "date": "2024.07 - heute",
+        "role": "Senior Produktmanager",
+        "location": "Wiesentheid, Deutschland",
+        "description": "**WICHTIGE ERFOLGE**\n+ Entwurf und Implementierung eines KI-gestützten Übersetzungsmanagement-Workflows; Steigerung der Übersetzungsskalierbarkeit und Verbesserung der Liefergeschwindigkeit\n+ Leitung der Entwicklung eines KI-Vision-Agenten-Prototyps zur effektiven Entzifferung unlesbarer handschriftlicher Texte für Übersetzungsprozesse\n+ Aufbau vertrauensvoller professioneller Stakeholder-Beziehungen als vertrauenswürdiger Ansprechpartner auf höchster Führungsebene\n+ Nutzung agiler Methoden und Frameworks zur Erzielung effektiver und positiver Projektergebnisse\n+ Kontinuierliche Wissensentwicklung zu neuesten Fortschritten zur Erweiterung des persönlichen Verständnisses und der Wirkung\n\n**VERANTWORTLICHKEITEN**\n+ Vollständige Verantwortung für die Leitung gesamter Produktlebenszyklen von der Anforderungserfassung bis zu Ideenfindung, Entwicklung und Bereitstellung\n+ Überwachung und Anleitung interdisziplinärer Teams, Zuweisung der Projektarbeitslast basierend auf technischen Stärken\n+ Unterstützung der technischen Weiterbildung und des beruflichen Wachstums von Nachwuchskräften durch maßgeschneidertes Coaching und Training\n+ Festlegung strategischer Produktziele, Überwachung des kontinuierlichen Fortschritts und Entwicklung maßgeschneiderter Strategien zur Abmilderung potenzieller Abweichungen\n+ Durchführung umfangreicher Markt- und Domänenanalysen zur Informationsgewinnung für Entscheidungen\n"
+      },
+      {
+        "company": "Clario.",
+        "link": "https://clario.com/",
+        "tags": "Vollzeit",
+        "date": "2021.12 - 2024.04",
+        "role": "Produktmanager",
+        "location": "Würzburg",
+        "description": "**WICHTIGE ERFOLGE**\n+ Erstellung und Bereitstellung einer domänenspezifischen Sprache und eines visuellen Editors zur Gestaltung mehrphasiger klinischer Studien; Reduzierung der Studienaufbauzeit um 60%\n+ Förderung einer Kultur der kontinuierlichen Verbesserung durch Leitung von Bewertungsaktivitäten nach der Bereitstellung\n+ Kombination großer Mengen von Nutzerfeedback, Marktforschung und datengestützten Metriken zur Steuerung des Produkterfolgs\n+ Unterstützung der Mitarbeiter bei der Anpassung an neue Produkte durch umfassende Anleitung und Verteilung gut strukturierter Dokumentation\n\n**VERANTWORTLICHKEITEN**\n+ Überwachung der Bereitstellung neuer Produktentwicklungen mit Fokus auf die Stärkung von Klinikstudien-Designern zur Gewinnung besserer Evidenz\n+ Abstimmung mit Stakeholdern zur Priorisierung und Definition von Produktanforderungen\n+ Handhabung end-to-end Testprozesse unter Behebung bemerkenswerter Fehler und Probleme zur Sicherstellung der Produktreifefreigabe\n+ Berichterstattung über Projektfortschritt an Stakeholder auf allen Geschäftsebenen\n"
+      },
+      {
+        "company": "eResearch Technology GmbH",
+        "link": "https://clario.com/",
+        "tags": "Vollzeit",
+        "date": "2020.11 - 2021.12",
+        "role": "Product Owner",
+        "location": "Würzburg, Deutschland",
+        "description": "**WICHTIGE ERFOLGE**\n+ Aufstieg in eine Product-Owner-Rolle nach Demonstration außergewöhnlicher technischer Instinkte und Führungsqualitäten über einen jahrzehntelangen Zeitraum\n+ Überwachung des nahtlosen Übergangs von monolithischen Klinikstudien-Portalen zu Microservices, Ermöglichung verbesserter Skalierbarkeit und Wartbarkeit\n\n**VERANTWORTLICHKEITEN**\n+ Leitung end-to-end Projektaktivitäten mit Fokus auf die Maximierung des Werts von Kardiologie- und Atemwegs-Lösungen\n+ Führung interdisziplinärer Teams zur Erfüllung von Protokoll- und technischen Anforderungen\n+ Koordination von Entwicklungsteam-Reviews und Priorisierung von Elementen in Produkt-Backlogs zur Sicherstellung der Verfügbarkeit für zukünftige Studien\n+ Strategische Zusammenarbeit mit Entwicklern zur Implementierung neuer Funktionen und Änderungen\n\n\n  \n"
+      },
+      {
+        "company": "eResearch Technology GmbH",
+        "link": "https://clario.com/",
+        "tags": "Vollzeit",
+        "date": "2015.07 - 2020.11",
+        "role": "Projektmanager",
+        "location": "Würzburg, Deutschland",
+        "description": "**WICHTIGE ERFOLGE**\n+ Leitung der erfolgreichen Durchführung von zwölf Phase-III-Klinikstudien innerhalb anspruchsvoller Fristen und Qualitätserwartungen\n+ Anerkennung für die Lösung hochriskanter Kundenprobleme mit Empathie, Aufmerksamkeit für Details und starker Kommunikation\n+ Ermöglichung nahtloser Einarbeitung durch Bereitstellung technischer Anleitung für Benutzer\n+ Unterstützung langfristiger vorteilhafter Beziehungen durch Aufrechterhaltung exzellenter Standards der Stakeholder-Zufriedenheit\n\n**VERANTWORTLICHKEITEN**\n+ Funktion als primärer Kundenansprechpartner während Implementierung und nach Bereitstellung\n+ Funktion als benannter Fachexperte für Atemwegsbewertungen\n+ Verwaltung von Kundeneskalationen, Nachverkaufsänderungsanfragen und Risikominderungsplänen\n+ Sicherstellung vollständiger Einhaltung geltender Vorschriften wie 21 CFR Part 11\n"
+      },
+      {
+        "company": "eResearch Technology GmbH",
+        "link": "https://clario.com/",
+        "tags": "Vollzeit",
+        "date": "2011.05 - 2015.07",
+        "role": "Datenmanager",
+        "location": "Würzburg, Deutschland",
+        "description": "**WICHTIGE ERFOLGE**\n+ Etablierung einer Script-Suite zur Automatisierung von Abfrage- und Datenwartung\n\n**VERANTWORTLICHKEITEN**\n+ Überwachung der Verwaltung und Wartung kritischer Produktdaten\n+ Überwachung der Durchführung von Datenbereinigungsaktivitäten und Plausibilitätsprüfungen\n+ Gestaltung und Aktualisierung kurz- und langfristiger Managementpläne\n"
+      }
+    ]
+  },
+  "profile": {
+    "show": true,
+    "order": 1,
+    "title": "Berufliches Profil",
+    "description": "Hoch engagierter und qualifizierter Fachmann mit reichhaltiger Erfahrung in der Leitung wirkungsvoller Produktentwicklungslebenszyklen im Bereich Life Sciences. Ebenso bewährt in der Leitung interdisziplinärer Teams zur Bereitstellung skalierbarer, datengestützter Lösungen.\nAngesehen als versierter Nutzer von KI-Codierungstools und Agenten mit der Fähigkeit, produktionsreife Anwendungen zu erstellen. Besitzt ein tiefes theoretisches und praktisches Verständnis KI-bezogener Tools wie LLM, Agent und Vision.\nHervorgehoben als engagierter Führungskraft mit Leidenschaft für Mentoring und Unterstützung technischer Fachkräfte. Nutzt exzellente mehrsprachige Kommunikation zur Zusammenarbeit auf allen Ebenen. Zeigt nachgewiesenes Engagement für berufliches Wachstum und technische Weiterbildung.\n"
+  },
+  "project": {
+    "show": true,
+    "order": 5,
+    "title": "Nebenprojekte",
+    "items": [
+      {
+        "name": "Over The Hill (Progress Chart)",
+        "link": "https://over-the-hill.faurobert.fr",
+        "tags": null,
+        "date": 2025,
+        "description": "Eine Web- und Desktop-Anwendung zur Visualisierung des Projektfortschritts mit Hill Charts\n+ [Github](https://github.com/gfaurobert/over-the-hill)\n+ [Dokumentation](https://gfaurobert.github.io/over-the-hill/)\n"
+      }
+    ]
+  },
+  "skill": {
+    "show": true,
+    "order": 4,
+    "title": "Kompetenzen",
+    "groups": [
+      {
+        "name": "Kompetenzen",
+        "item": [
+          "Produkt- & Projektmanagement",
+          "Technisches Verständnis",
+          "Operative Transformation",
+          "Strategische Planung & Umsetzung",
+          "Design & Entwicklung",
+          "Lösungsimplementierung",
+          "Risikominderung",
+          "GCP & Regulatorische Compliance",
+          "Markt- & Nutzerforschung",
+          "Stakeholder-Abstimmung",
+          "Berichterstattung & Präsentation",
+          "Innovative Führung",
+          "Übergreifende Zusammenarbeit",
+          "Teambildung & Training",
+          "Coaching & Mentoring",
+          "Mehrsprachige Kommunikation (Englisch, Französisch, Deutsch)",
+          "Kritisches & Kreatives Denken"
+        ]
+      }
+    ]
+  },
+  "innovation": {
+    "show": false,
+    "order": 2,
+    "title": "Wichtige Erfolge",
+    "items": [
+      {
+        "name": "Leitung der Modernisierung des KI-gestützten Übersetzungsworkflows",
+        "date": 2024,
+        "description": "+ **Innovation**: Entwurf und Implementierung eines KI-gestützten Übersetzungsmanagement-Workflows.\n+ **Auswirkung**: Verbesserte Effizienz und reduzierte manuelle Fehler.\n+ **Technologie**: KI-gestützte Pipeline mit Nutzung von Aufgabenautomatisierung.\n+ **Ergebnis**: Steigerung der Übersetzungsskalierbarkeit und Verbesserung der globalen Liefergeschwindigkeit.\n"
+      },
+      {
+        "name": "DSL-gestütztes Studienaufbau-Tool für Klinikstudien",
+        "date": 2022,
+        "description": "+ **Innovation**: Erstellung einer domänenspezifischen Sprache und eines visuellen Editors zur Gestaltung von Klinikstudien.\n+ **Auswirkung**: Reduzierung der Studienaufbauzeit um 60%, erhöhte Genauigkeit.\n+ **Technologie**: Benutzerdefinierter Interpreter und visueller Editor für nicht-technische Benutzer\n+ **Ergebnis**: Erfolgreich in mehreren Phase-III-Studien eingesetzt\n"
+      },
+      {
+        "name": "Migration zu Microservices-basierter Studienplattform",
+        "date": 2021,
+        "description": "+ **Innovation**: Übergang von monolithischen Klinikstudien-Portalen zu Microservices\n+ **Auswirkung**: Verbesserte Skalierbarkeit und Wartbarkeit\n+ **Technologie**: Containerisierte Services mit API-First-Design\n+ **Ergebnis**: Reduzierte Bereitstellungszeit und erhöhte Systemzuverlässigkeit\n"
+      },
+      {
+        "name": "Automatisierte Datenmanagementprozesse",
+        "date": 2015,
+        "description": "+ **Innovation**: Erstellung einer Script-Suite zur Rationalisierung von Abfrage- und Datenwartung\n+ **Auswirkung**: Verbesserte Datengenauigkeit und reduzierte manuelle Fehler\n+ **Technologie**: Benutzerdefiniertes Datenvalidierungs-Framework\n+ **Ergebnis**: Rationalisiertes Datenmanagement für Klinikstudien, Ermöglichung schnellerer Datenanalyse und Berichterstattung\n"
+      }
+    ]
+  },
+  "education": {
+    "show": true,
+    "order": 6,
+    "title": "Bildung & Berufliche Entwicklung",
+    "items": [
+      {
+        "institution": "Professional Scrum Product Owner",
+        "link": "https://www.scrum.org/user/721699",
+        "degree": "Scrum.org",
+        "date": 2020
+      },
+      {
+        "institution": "Université de Toulon",
+        "link": "https://www.univ-tln.fr/",
+        "date": "2007 - 2010",
+        "major": "Information & Communication",
+        "degree": "Master"
+      },
+      {
+        "institution": "University of West of Scotland",
+        "link": "https://www.uws.ac.uk/",
+        "date": "2009 - 2010",
+        "major": "Multimedia und Web-Authoring",
+        "degree": "Post Graduate Diploma"
+      }
+    ]
+  },
+  "certificate": {
+    "show": false,
+    "order": 7,
+    "title": "Zertifikate",
+    "items": [
+      {
+        "name": "Professional Scrum Product Owner",
+        "issuer": "Scrum.org",
+        "date": 2020,
+        "link": "https://www.scrum.org/user/721699"
+      }
+    ]
+  },
+  "publication": {
+    "show": false,
+    "order": 8,
+    "title": "Veröffentlichungen",
+    "description": "Der Veröffentlichungsbereich in einem Lebenslauf ist ein spezieller Bereich, in dem Sie alle Veröffentlichungen präsentieren können, die Sie verfasst oder zu denen Sie beigetragen haben. Dieser Bereich ist besonders relevant für Personen in akademischen oder Forschungsbereichen, kann aber auch für Personen in anderen Bereichen relevant sein, die Artikel oder Papiere veröffentlicht haben.\n\nVeröffentlichungen können akademische Zeitschriftenartikel, Konferenzpapiere, Buchkapitel, Berichte oder andere schriftliche Werke umfassen. In diesem Bereich sollten Sie den Titel der Veröffentlichung, die Namen aller Co-Autoren, den Namen der Veröffentlichung oder Konferenz, das Veröffentlichungsdatum und alle anderen relevanten Details auflisten.\n\nWenn Sie eine lange Liste von Veröffentlichungen haben, sollten Sie erwägen, nur die relevantesten oder bedeutendsten Veröffentlichungen in Ihren Lebenslauf aufzunehmen. Alternativ könnten Sie eine separate Veröffentlichungsliste erstellen und diese als separates Dokument bereitstellen, entweder in Ihren Bewerbungsunterlagen oder auf Anfrage.\n\nDie Aufnahme eines Veröffentlichungsbereichs in Ihren Lebenslauf kann helfen, Ihre Expertise und Glaubwürdigkeit in Ihrem Bereich zu demonstrieren und kann Ihnen helfen, sich von anderen Kandidaten abzuheben. Wenn Sie jedoch keine Veröffentlichungen aufzulisten haben, ist es nicht notwendig, diesen Bereich in Ihren Lebenslauf aufzunehmen.\n",
+    "items": [
+      {
+        "title": "Example Publication in Action",
+        "authors": "Foo Bar",
+        "conference": "Foobar, 2019",
+        "link": "#"
+      },
+      {
+        "title": "The Art of Example Publication",
+        "authors": "Foo Bar",
+        "conference": "Foobar, 2019",
+        "link": null
+      }
+    ]
+  },
+  "award": {
+    "show": false,
+    "order": 9,
+    "title": "Auszeichnungen",
+    "description": "Der Auszeichnungsbereich in einem Lebenslauf ist ein spezieller Bereich, in dem Sie alle Auszeichnungen präsentieren können, die Sie erhalten haben. Dieser Bereich ist besonders relevant für Personen, die Auszeichnungen für ihre Arbeit in ihrem Bereich erhalten haben, wie z.B. Mitarbeiter, die Leistungsauszeichnungen oder branchenspezifische Auszeichnungen erhalten haben. In diesem Bereich sollten Sie den Namen der Auszeichnung, die Organisation oder Institution, die sie verliehen hat, das Datum der Verleihung und alle anderen relevanten Details auflisten.\n\nWenn Sie Ihre Auszeichnungen in Ihren Lebenslauf aufnehmen, sollten Sie sich auf die bedeutendsten oder relevantesten Auszeichnungen konzentrieren, die Ihre Fähigkeiten und Expertise zeigen. Wenn Sie eine lange Liste von Auszeichnungen erhalten haben, sollten Sie erwägen, nur die neuesten oder prestigeträchtigsten Auszeichnungen in Ihren Lebenslauf aufzunehmen.\n\nDurch die Hervorhebung Ihrer Auszeichnungen können Sie Ihre Erfolge und Leistungen in Ihrem Bereich demonstrieren und können sich von anderen Kandidaten abheben. Wenn Sie jedoch keine Auszeichnungen erhalten haben, ist es nicht notwendig, diesen Bereich in Ihren Lebenslauf aufzunehmen.\n",
+    "items": [
+      {
+        "name": "Example Awared One",
+        "awarder": "by Example",
+        "date": 2022,
+        "link": "#",
+        "description": "It's my Example Awared One by Example.\n"
+      },
+      {
+        "name": "Example Awared Two",
+        "awarder": "by Example",
+        "date": 2022,
+        "link": null,
+        "description": "It's my Example Awared Two by Example.\n"
+      }
+    ]
+  },
+  "patent": {
+    "show": false,
+    "order": 10,
+    "title": "Patente",
+    "description": "Der Patentbereich in einem Lebenslauf ist ein spezieller Bereich, in dem Sie alle Patente präsentieren können, die Ihnen erteilt wurden oder die Sie gerade erhalten. Dieser Bereich ist besonders relevant für Personen, die in wissenschaftlichen oder technischen Bereichen arbeiten, sowie für Personen, die innovative Produkte oder Technologien entwickelt haben.\n\nIn diesem Bereich sollten Sie den Titel des Patents, den Namen der Erfinder, die Patentnummer und das Datum der Erteilung auflisten. Wenn das Patent anhängig ist, können Sie angeben, dass es \"anhängig\" oder \"in Prüfung\" ist. Sie können auch eine kurze Beschreibung der Technologie oder Erfindung bereitstellen, die das Patent abdeckt.\n\nDie Aufnahme eines Patentbereichs in Ihren Lebenslauf kann helfen, Ihre Expertise und Leistungen in Ihrem Bereich zu demonstrieren und kann Ihnen helfen, sich von anderen Kandidaten abzuheben. Wenn Sie jedoch keine Patente aufzulisten haben, ist es nicht notwendig, diesen Bereich in Ihren Lebenslauf aufzunehmen.\n\nVorlage für ein anhängiges Patent:\n\n+ [Erfindername]. [Jahr]. [Titel]. [Patentnummer], eingereicht [Eingabedatum]. Patent anhängig.\n\nVorlage für ein genehmigtes Patent:\n\n+ [Erfindername]. [Jahr]. [Titel]. [Patentnummer], eingereicht [Eingabedatum], [Erteilungsdatum].\n\nIm Folgenden finden Sie einige Beispiele für Patentformate.\n\n+ Foo Bar. 2022. Beispiel Patentname eins. US 123456, eingereicht 3. Okt. 2022. Patent anhängig.\n+ Foo Bar. 2022. Beispiel Patentname zwei. US 654321, eingereicht 3. Okt. 2022, erteilt 15. Nov. 2022.\n"
+  },
+  "organization": {
+    "show": false,
+    "order": 11,
+    "title": "Organisationen",
+    "description": "Der Organisationsbereich in einem Lebenslauf, speziell für soziale Kontexte, ist ein Bereich, in dem Sie alle relevanten Beteiligungen oder Führungspositionen in sozialen, kulturellen oder Gemeinschaftsorganisationen präsentieren können. Dieser Bereich kann Ihr Engagement für soziale Anliegen und Ihre Fähigkeit zur Zusammenarbeit mit anderen auf ein gemeinsames Ziel hin hervorheben.\n\nIn diesem Bereich können Sie den Namen der Organisation, Ihre Rolle und Verantwortlichkeiten, die Dauer Ihrer Beteiligung und alle bedeutenden Erfolge oder Leistungen auflisten. Sie können auch alle Fähigkeiten oder Qualitäten erwähnen, die Sie aus Ihrer Beteiligung gewonnen haben, wie z.B. Führung, Teamarbeit, Kommunikation oder Problemlösungsfähigkeiten.\n\nDieser Bereich kann besonders wertvoll für Kandidaten sein, die Positionen im gemeinnützigen Sektor, in der Sozialarbeit oder in Gemeinschaftsengagement-Rollen suchen, wo Erfahrung in sozialen oder kulturellen Organisationen eine echte Leidenschaft für soziale Anliegen und eine Bereitschaft zur Zusammenarbeit für sozialen Wandel demonstrieren kann. Es ist jedoch wichtig, nur Organisationen aufzunehmen, die für die Stelle relevant sind, für die Sie sich bewerben, und Organisationen zu vermeiden, die kontrovers oder potenziell anstößig sein könnten.\n"
+  },
+  "language": {
+    "show": false,
+    "order": 12,
+    "title": "Sprachen",
+    "items": [
+      {
+        "idiom": "Französisch",
+        "level": "Muttersprache"
+      },
+      {
+        "idiom": "English",
+        "level": "Zweisprachig"
+      },
+      {
+        "idiom": "German",
+        "level": "Berufliche Arbeitsfähigkeit (mit französischem Akzent 😊)"
+      }
+    ]
+  },
+  "interest": {
+    "show": false,
+    "order": 13,
+    "title": "Interests",
+    "description": "Der Interessenbereich in einem Lebenslauf bezieht sich typischerweise auf einen Bereich, in dem Sie Ihre Hobbys, Interessen und Aktivitäten außerhalb von Arbeit oder Schule erwähnen können. Dieser Bereich kann potenziellen Arbeitgebern einen besseren Eindruck von Ihrer Persönlichkeit, Ihren Werten und Ihren Interessen jenseits Ihrer beruflichen Erfahrung vermitteln.\n\nDie Aufnahme eines Interessenbereichs in Ihren Lebenslauf kann hilfreich sein, wenn Ihre Interessen für die Stelle relevant sind, für die Sie sich bewerben, wie z.B. wenn Sie sich für eine Stelle in einem kreativen Bereich bewerben und Ihre Hobbys Malen oder Schreiben umfassen. Es kann auch nützlich sein, wenn Sie sich für eine Stelle bewerben, bei der Teamarbeit oder soziale Fähigkeiten wichtig sind, und Sie Interessen erwähnen können, die diese Qualitäten demonstrieren.\n\nEs ist jedoch wichtig, bei der Aufnahme eines Interessenbereichs in Ihren Lebenslauf selektiv zu sein und Interessen zu wählen, die angemessen und professionell sind. Vermeiden Sie die Aufnahme kontroverser oder potenziell anstößiger Interessen und konzentrieren Sie sich auf Interessen, die Ihre positiven Qualitäten und Stärken zeigen.\n",
+    "items": [
+      {
+        "item": "Lesen",
+        "link": "#"
+      },
+      {
+        "item": "Cooking",
+        "link": null
+      }
+    ]
+  },
+  "evaluation": {
+    "show": false,
+    "order": 14,
+    "title": "Selbsteinschätzung",
+    "description": "The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.\n\nIn this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.\n\nA well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.\n"
+  },
+  "reference": {
+    "show": true,
+    "order": 15,
+    "title": "Referenzen",
+    "items": [
+      {
+        "name": "Auf Anfrage verfügbar"
+      }
+    ]
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "basic": {
+    "name": "Gregor Faurobert",
+    "avatar": {
+      "show": true,
+      "path": "/images/avatar.jpg"
+    }
+  },
+  "contact": {
+    "location": "Wiesentheid, Germany",
+    "email": "gregoire@faurobert.fr",
+    "phone": "+49 176 3268 2817",
+    "website": "gregor.faurobert.fr",
+    "gender": null,
+    "birthday": null,
+    "nationality": null,
+    "visa": null,
+    "drivinglicense": null,
+    "wechat": null,
+    "whatsapp": null,
+    "telegram": null,
+    "messenger": null,
+    "line": null,
+    "viber": null,
+    "threema": null,
+    "github": "gfaurobert",
+    "gitlab": null,
+    "bitbucket": null,
+    "stackoverflow": null,
+    "leetcode": null,
+    "codeforces": null,
+    "codewars": null,
+    "codepen": null,
+    "tryhackme": null,
+    "googlescholar": null,
+    "researchgate": null,
+    "kaggle": null,
+    "orcid": null,
+    "figshare": null,
+    "devto": null,
+    "medium": null,
+    "wordpress": null,
+    "blogger": null,
+    "wikipedia": null,
+    "figma": null,
+    "behance": null,
+    "dribble": null,
+    "artstation": null,
+    "linkedin": "gfaurobert",
+    "indeed": null,
+    "xing": null,
+    "fiverr": null,
+    "freelancer": null,
+    "twitter": "gfaurobert",
+    "mastodon": null,
+    "instagram": null,
+    "unsplash": null,
+    "_500px": null,
+    "youtube": "salutlespm",
+    "tiktok": null,
+    "quora": null,
+    "zhihu": null,
+    "goodreads": null,
+    "strava": null,
+    "print": "Imprimez-moi !"
+  },
+  "experience": {
+    "show": true,
+    "order": 3,
+    "title": "Résumé de carrière",
+    "items": [
+      {
+        "company": "Welocalize",
+        "link": "https://welocalize.com/",
+        "tags": "Temps plein",
+        "date": "2024.07 - présent",
+        "role": "Chef de produit senior",
+        "location": "Wiesentheid, Germany",
+        "description": "**RÉALISATIONS CLÉS**\n+ Conçu et mis en œuvre un flux de travail de gestion de traduction amélioré par l'IA ; augmentant l'évolutivité de la traduction et améliorant la vitesse de livraison\n+ Dirigé la création d'un prototype d'agent de vision IA pour déchiffrer efficacement l'écriture manuelle illisible pour les processus de traduction\n+ Cultivé des relations professionnelles de confiance avec les parties prenantes, servant de point de consultation de confiance aux niveaux de séniorité les plus élevés\n+ Exploité les méthodologies et cadres Agile pour conduire des résultats de projet efficaces et positifs\n+ Participé au développement continu des connaissances concernant les dernières avancées pour élargir la compréhension et l'impact personnels\n\n**RESPONSABILITÉS**\n+ Entièrement responsable de la direction de l'ensemble des cycles de vie des produits, de la collecte des exigences à la conceptualisation, au développement et au déploiement\n+ Superviser et guider les équipes interfonctionnelles, allouer la charge de travail du projet en fonction des forces techniques\n+ Aider au perfectionnement technique et à la croissance professionnelle des professionnels juniors grâce à un coaching et une formation sur mesure\n+ Définir des objectifs stratégiques de produit, surveiller les progrès continus et concevoir des stratégies sur mesure pour atténuer les écarts potentiels\n+ Entreprendre une analyse approfondie du marché et du domaine pour éclairer la prise de décision\n"
+      },
+      {
+        "company": "Clario.",
+        "link": "https://clario.com/",
+        "tags": "Temps plein",
+        "date": "2021.12 - 2024.04",
+        "role": "Chef de produit",
+        "location": "Würzburg",
+        "description": "**RÉALISATIONS CLÉS**\n+ Créé et déployé un langage spécifique au domaine et un éditeur visuel pour concevoir des essais cliniques à phases multiples ; réduisant le temps de construction de l'étude de 60%\n+ Favorisé une culture d'amélioration continue en dirigeant les activités d'évaluation post-déploiement\n+ Combiné de grands volumes de retours utilisateurs, de recherche de marché et de métriques basées sur les données pour orienter le succès du produit\n+ Aidé les employés à s'adapter aux nouveaux produits grâce à des conseils approfondis et à la distribution de documentation bien structurée\n\n**RESPONSABILITÉS**\n+ Supervisé la livraison de nouveaux développements de produits axés sur l'autonomisation des concepteurs d'essais cliniques pour débloquer de meilleures preuves\n+ Assuré la liaison avec les parties prenantes pour prioriser et définir les exigences du produit\n+ Géré les processus de test de bout en bout, tout en traitant les bugs et problèmes notables, pour assurer la préparation à la sortie du produit\n+ Rendu compte de l'avancement du projet aux parties prenantes à tous les niveaux de l'entreprise\n"
+      },
+      {
+        "company": "eResearch Technology GmbH",
+        "link": "https://clario.com/",
+        "tags": "Temps plein",
+        "date": "2020.11 - 2021.12",
+        "role": "Product Owner",
+        "location": "Würzburg, Germany",
+        "description": "**RÉALISATIONS CLÉS**\n+ Progressé vers un rôle de Product Owner après avoir démontré des instincts techniques exceptionnels et des qualités de leadership sur une période de dix ans\n+ Supervisé la transition transparente des portails d'essais cliniques monolithiques vers des microservices, permettant une meilleure évolutivité et maintenabilité\n\n**RESPONSABILITÉS**\n+ Dirigé les activités de projet de bout en bout centrées sur la maximisation de la valeur des solutions de cardiologie et de pneumologie\n+ Mené des équipes interfonctionnelles pour livrer sur les exigences de protocole et techniques\n+ Coordonné les revues de l'équipe de développement et priorisé les éléments dans les backlogs de produits pour assurer la disponibilité pour les futurs essais\n+ Stratégisé avec les développeurs pour implémenter de nouvelles fonctionnalités et modifications\n\n\n  \n"
+      },
+      {
+        "company": "eResearch Technology GmbH",
+        "link": "https://clario.com/",
+        "tags": "Temps plein",
+        "date": "2015.07 - 2020.11",
+        "role": "Chef de projet",
+        "location": "Würzburg, Germany",
+        "description": "**RÉALISATIONS CLÉS**\n+ Dirigé l'exécution réussie de douze essais cliniques de phase III dans des délais exigeants et des attentes de qualité\n+ Reconnu pour la résolution de problèmes clients à haut risque avec empathie, attention aux détails et communication forte\n+ Facilité l'intégration transparente en fournissant des conseils techniques aux utilisateurs\n+ Soutenu des relations bénéfiques à long terme en maintenant d'excellents standards de satisfaction des parties prenantes\n\n**RESPONSABILITÉS**\n+ Agi comme point de contact client principal pendant l'implémentation et le post-déploiement\n+ Servi comme expert en la matière désigné pour les évaluations respiratoires\n+ Géré les escalades clients, les demandes de changement post-vente et les plans d'atténuation des risques\n+ Assuré la conformité complète avec les réglementations applicables, telles que 21 CFR Part 11\n"
+      },
+      {
+        "company": "eResearch Technology GmbH",
+        "link": "https://clario.com/",
+        "tags": "Temps plein",
+        "date": "2011.05 - 2015.07",
+        "role": "Responsable des données",
+        "location": "Würzburg, Germany",
+        "description": "**RÉALISATIONS CLÉS**\n+ Établi une suite de scripts pour automatiser la maintenance des requêtes et des données\n\n**RESPONSABILITÉS**\n+ Supervisé la gestion et la maintenance des données critiques du produit\n+ Assuré la supervision des activités de nettoyage des données et des vérifications de plausibilité\n+ Formé et mis à jour les plans de gestion à court et long terme\n"
+      }
+    ]
+  },
+  "profile": {
+    "show": true,
+    "order": 1,
+    "title": "Profil professionnel",
+    "description": "Professionnel hautement dévoué et compétent avec une riche expérience dans la direction de cycles de vie de développement de produits impactants dans le domaine des sciences de la vie. Également éprouvé dans la direction d'équipes interfonctionnelles vers la livraison de solutions évolutives et basées sur les données.\nConsidéré comme un utilisateur compétent d'outils et d'agents de codage IA avec la capacité de construire des applications prêtes pour la production. Possède une compréhension théorique et pratique approfondie des outils liés à l'IA, tels que LLM, Agent et Vision.\nMis en avant comme un leader dévoué avec une passion pour le mentorat et le soutien aux professionnels techniques. Utilise une excellente communication multilingue pour collaborer à tous les niveaux. Démontre un engagement prouvé envers la croissance professionnelle et le perfectionnement technique.\n"
+  },
+  "project": {
+    "show": true,
+    "order": 5,
+    "title": "Projets personnels",
+    "items": [
+      {
+        "name": "Over The Hill (Progress Chart)",
+        "link": "https://over-the-hill.faurobert.fr",
+        "tags": null,
+        "date": 2025,
+        "description": "Une application web et de bureau conçue pour visualiser la progression des projets en utilisant les Hill Charts\n+ [Github](https://github.com/gfaurobert/over-the-hill)\n+ [Documentation](https://gfaurobert.github.io/over-the-hill/)\n"
+      }
+    ]
+  },
+  "skill": {
+    "show": true,
+    "order": 4,
+    "title": "Compétences",
+    "groups": [
+      {
+        "name": "Compétences",
+        "item": [
+          "Gestion de produit et de projet",
+          "Sens technique",
+          "Transformation opérationnelle",
+          "Planification et exécution stratégiques",
+          "Conception et développement",
+          "Implémentation de solutions",
+          "Atténuation des risques",
+          "Conformité GCP et réglementaire",
+          "Recherche marché et utilisateur",
+          "Alignement des parties prenantes",
+          "Rapportage et présentation",
+          "Leadership innovant",
+          "Collaboration transversale",
+          "Construction d'équipe et formation",
+          "Coaching et mentorat",
+          "Communication multilingue (Anglais, Français, Allemand)",
+          "Pensée critique et créative"
+        ]
+      }
+    ]
+  },
+  "innovation": {
+    "show": false,
+    "order": 2,
+    "title": "Réalisations clés",
+    "items": [
+      {
+        "name": "Modernisation du flux de travail de traduction amélioré par l'IA",
+        "date": 2024,
+        "description": "+ **Innovation** : Conçu et mis en œuvre un flux de travail de gestion de traduction amélioré par l'IA.\n+ **Impact** : Amélioration de l'efficacité et réduction des erreurs manuelles.\n+ **Technologie** : Pipeline alimenté par l'IA exploitant l'automatisation des tâches.\n+ **Résultat** : Augmentation de l'évolutivité de la traduction et amélioration de la vitesse de livraison mondiale.\n"
+      },
+      {
+        "name": "Outil de construction d'étude basé sur DSL pour essais cliniques",
+        "date": 2022,
+        "description": "+ **Innovation** : Créé un langage spécifique au domaine et un éditeur visuel pour concevoir des essais cliniques.\n+ **Impact** : Réduction du temps de construction de l'étude de 60%, augmentation de la précision.\n+ **Technologie** : Interpréteur personnalisé et éditeur visuel pour utilisateurs non techniques\n+ **Résultat** : Déployé avec succès sur plusieurs essais de phase III\n"
+      },
+      {
+        "name": "Migration vers une plateforme d'essais basée sur les microservices",
+        "date": 2021,
+        "description": "+ **Innovation** : Transition des portails d'essais cliniques monolithiques vers des microservices\n+ **Impact** : Amélioration de l'évolutivité et de la maintenabilité\n+ **Technologie** : Services conteneurisés avec conception API-first\n+ **Résultat** : Réduction du temps de déploiement et augmentation de la fiabilité du système\n"
+      },
+      {
+        "name": "Processus automatisés de gestion des données",
+        "date": 2015,
+        "description": "+ **Innovation** : Construit une suite de scripts pour rationaliser la maintenance des requêtes et des données\n+ **Impact** : Amélioration de la précision des données et réduction des erreurs manuelles\n+ **Technologie** : Cadre de validation de données personnalisé\n+ **Résultat** : Gestion des données rationalisée pour les essais cliniques, permettant une analyse et un rapportage de données plus rapides\n"
+      }
+    ]
+  },
+  "education": {
+    "show": true,
+    "order": 6,
+    "title": "Formation et développement professionnel",
+    "items": [
+      {
+        "institution": "Professional Scrum Product Owner",
+        "link": "https://www.scrum.org/user/721699",
+        "degree": "Scrum.org",
+        "date": 2020
+      },
+      {
+        "institution": "Université de Toulon",
+        "link": "https://www.univ-tln.fr/",
+        "date": "2007 - 2010",
+        "major": "Information & Communication",
+        "degree": "Master"
+      },
+      {
+        "institution": "University of West of Scotland",
+        "link": "https://www.uws.ac.uk/",
+        "date": "2009 - 2010",
+        "major": "Multimedia and Web Authoring",
+        "degree": "Post Graduate Diploma"
+      }
+    ]
+  },
+  "certificate": {
+    "show": false,
+    "order": 7,
+    "title": "Certificats",
+    "items": [
+      {
+        "name": "Professional Scrum Product Owner",
+        "issuer": "Scrum.org",
+        "date": 2020,
+        "link": "https://www.scrum.org/user/721699"
+      }
+    ]
+  },
+  "publication": {
+    "show": false,
+    "order": 8,
+    "title": "Publications",
+    "description": "La section publication dans un CV est une section dédiée où vous pouvez présenter toutes les publications que vous avez rédigées ou auxquelles vous avez contribué. Cette section est particulièrement pertinente pour les personnes dans les domaines académiques ou de recherche, mais peut également être pertinente pour les personnes dans d'autres domaines qui ont publié des articles ou des articles.\n\nLes publications peuvent inclure des articles de revues académiques, des articles de conférence, des chapitres de livre, des rapports ou d'autres travaux écrits. Dans cette section, vous devez lister le titre de la publication, les noms de tous les co-auteurs, le nom de la publication ou de la conférence, la date de publication et tout autre détail pertinent.\n\nSi vous avez une longue liste de publications, vous pouvez envisager d'inclure uniquement les publications les plus pertinentes ou significatives dans votre CV. Alternativement, vous pourriez créer une liste de publications séparée et la fournir comme document séparé, soit dans vos documents de candidature, soit sur demande.\n\nInclure une section publication dans votre CV peut aider à démontrer votre expertise et votre crédibilité dans votre domaine, et peut vous aider à vous démarquer des autres candidats. Cependant, si vous n'avez aucune publication à lister, il n'est pas nécessaire d'inclure cette section dans votre CV.\n",
+    "items": [
+      {
+        "title": "Example Publication in Action",
+        "authors": "Foo Bar",
+        "conference": "Foobar, 2019",
+        "link": "#"
+      },
+      {
+        "title": "The Art of Example Publication",
+        "authors": "Foo Bar",
+        "conference": "Foobar, 2019",
+        "link": null
+      }
+    ]
+  },
+  "award": {
+    "show": false,
+    "order": 9,
+    "title": "Prix",
+    "description": "La section prix dans un CV est une section dédiée où vous pouvez présenter tous les prix que vous avez reçus. Cette section est particulièrement pertinente pour les personnes qui ont reçu des prix pour leur travail dans leur domaine, telles que les employés qui ont reçu des prix de performance ou des prix spécifiques à l'industrie. Dans cette section, vous devez lister le nom du prix, l'organisation ou l'institution qui l'a décerné, la date à laquelle il a été décerné et tout autre détail pertinent.\n\nLors de l'inclusion de vos prix dans votre CV, assurez-vous de vous concentrer sur les prix les plus significatifs ou pertinents qui mettent en valeur vos compétences et votre expertise. Si vous avez reçu une longue liste de prix, vous pouvez envisager d'inclure uniquement les prix les plus récents ou prestigieux dans votre CV.\n\nEn mettant en évidence vos prix, vous pouvez démontrer vos réalisations et accomplissements dans votre domaine, et pouvez vous aider à vous différencier des autres candidats. Cependant, si vous n'avez reçu aucun prix, il n'est pas nécessaire d'inclure cette section dans votre CV.\n",
+    "items": [
+      {
+        "name": "Example Awared One",
+        "awarder": "by Example",
+        "date": 2022,
+        "link": "#",
+        "description": "It's my Example Awared One by Example.\n"
+      },
+      {
+        "name": "Example Awared Two",
+        "awarder": "by Example",
+        "date": 2022,
+        "link": null,
+        "description": "It's my Example Awared Two by Example.\n"
+      }
+    ]
+  },
+  "patent": {
+    "show": false,
+    "order": 10,
+    "title": "Brevets",
+    "description": "La section brevet dans un CV est une section dédiée où vous pouvez présenter tous les brevets qui vous ont été accordés ou que vous êtes en train d'obtenir. Cette section est particulièrement pertinente pour les personnes qui travaillent dans des domaines scientifiques ou techniques, ainsi que pour les personnes qui ont développé des produits ou technologies innovants.\n\nDans cette section, vous devez lister le titre du brevet, le nom des inventeurs, le numéro du brevet et la date à laquelle il a été accordé. Si le brevet est en attente, vous pouvez indiquer qu'il est \"en attente\" ou \"en examen\". Vous pouvez également fournir une brève description de la technologie ou de l'invention que le brevet couvre.\n\nInclure une section brevet dans votre CV peut aider à démontrer votre expertise et vos réalisations dans votre domaine, et peut vous aider à vous démarquer des autres candidats. Cependant, si vous n'avez aucun brevet à lister, il n'est pas nécessaire d'inclure cette section dans votre CV.\n\nModèle pour un brevet en attente :\n\n+ [Nom de l'inventeur]. [Année poursuivie]. [Titre]. [Numéro de brevet], déposé le [Date de soumission]. Brevet en attente.\n\nModèle pour un brevet approuvé :\n\n+ [Nom de l'inventeur]. [Année poursuivie]. [Titre]. [Numéro de brevet], déposé le [Date de soumission], [Date de réception].\n\nVoici quelques exemples de formats de brevet.\n\n+ Foo Bar. 2022. Exemple de nom de brevet un. US 123456, déposé le 3 oct. 2022. Brevet en attente.\n+ Foo Bar. 2022. Exemple de nom de brevet deux. US 654321, déposé le 3 oct. 2022, et délivré le 15 nov. 2022.\n"
+  },
+  "organization": {
+    "show": false,
+    "order": 11,
+    "title": "Organisations",
+    "description": "La section organisation dans un CV, spécifiquement pour les contextes sociaux, est une section où vous pouvez présenter toute implication pertinente ou positions de leadership dans des organisations sociales, culturelles ou communautaires. Cette section peut mettre en évidence votre engagement envers les causes sociales et votre capacité à travailler en collaboration avec d'autres vers un objectif commun.\n\nDans cette section, vous pouvez lister le nom de l'organisation, votre rôle et responsabilités, la durée de votre implication et toute réalisation ou accomplissement significatif. Vous pouvez également mentionner toutes les compétences ou qualités que vous avez acquises grâce à votre implication, telles que le leadership, le travail d'équipe, la communication ou les compétences en résolution de problèmes.\n\nCette section peut être particulièrement précieuse pour les candidats recherchant des postes dans le secteur à but non lucratif, le travail social ou les rôles d'engagement communautaire, où l'expérience dans des organisations sociales ou culturelles peut démontrer une passion authentique pour les causes sociales et une volonté de travailler en collaboration vers le changement social. Cependant, il est important de n'inclure que les organisations pertinentes pour l'emploi pour lequel vous postulez, et d'éviter de lister les organisations qui peuvent être controversées ou potentiellement offensantes.\n"
+  },
+  "language": {
+    "show": false,
+    "order": 12,
+    "title": "Langues",
+    "items": [
+      {
+        "idiom": "French",
+        "level": "Native"
+      },
+      {
+        "idiom": "English",
+        "level": "Bilingue"
+      },
+      {
+        "idiom": "German",
+        "level": "Maîtrise professionnelle (avec accent français 😊)"
+      }
+    ]
+  },
+  "interest": {
+    "show": false,
+    "order": 13,
+    "title": "Centres d'intérêt",
+    "description": "La section centres d'intérêt dans un CV fait généralement référence à une section où vous pouvez mentionner vos passe-temps, intérêts et activités en dehors du travail ou de l'école. Cette section peut donner aux employeurs potentiels une meilleure idée de votre personnalité, de vos valeurs et de vos intérêts au-delà de votre expérience professionnelle.\n\nInclure une section centres d'intérêt dans votre CV peut être utile si vos intérêts sont pertinents pour l'emploi pour lequel vous postulez, comme si vous postulez pour un emploi dans un domaine créatif et que vos passe-temps incluent la peinture ou l'écriture. Cela peut également être utile si vous postulez pour un emploi où le travail d'équipe ou les compétences sociales sont importantes, et vous pouvez mentionner des intérêts qui démontrent ces qualités.\n\nCependant, il est important d'être sélectif lors de l'inclusion d'une section centres d'intérêt dans votre CV, et de choisir des intérêts qui sont appropriés et professionnels. Évitez d'inclure des intérêts controversés ou potentiellement offensants, et concentrez-vous sur des intérêts qui mettent en valeur vos qualités et forces positives.\n",
+    "items": [
+      {
+        "item": "Reading",
+        "link": "#"
+      },
+      {
+        "item": "Cuisine",
+        "link": null
+      }
+    ]
+  },
+  "evaluation": {
+    "show": false,
+    "order": 14,
+    "title": "Self-evaluation",
+    "description": "La section auto-évaluation dans un CV est une section où vous pouvez évaluer et évaluer vos propres compétences, forces et faiblesses. Il s'agit généralement d'un court paragraphe ou de points à puces à la fin de votre CV, qui fournit une perspective personnelle sur vos capacités et comment elles s'alignent avec les exigences de l'emploi.\n\nDans cette section, vous pouvez mettre en évidence vos réalisations, domaines d'expertise et toute qualité ou expérience unique qui vous distingue des autres candidats. Vous pouvez également mentionner les domaines dans lesquels vous cherchez à vous améliorer ou à acquérir plus d'expérience.\n\nUne section d'auto-évaluation bien rédigée peut démontrer votre conscience de soi et votre confiance en vos capacités, ainsi que votre volonté d'apprendre et de grandir continuellement. Cependant, il est important d'être honnête et d'éviter de gonfler excessivement vos compétences ou qualifications, car cela peut avoir un impact négatif sur votre crédibilité et l'impression du responsable du recrutement sur vous.\n"
+  },
+  "reference": {
+    "show": true,
+    "order": 15,
+    "title": "Références",
+    "items": [
+      {
+        "name": "Disponibles sur demande"
+      }
+    ]
+  }
+}

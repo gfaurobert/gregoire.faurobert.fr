@@ -1,0 +1,340 @@
+{
+  "basic": {
+    "name": "Gregor Faurobert",
+    "avatar": {
+      "show": true,
+      "path": "/images/avatar.jpg"
+    }
+  },
+  "contact": {
+    "location": "Wiesentheid, Germany",
+    "email": "gregoire@faurobert.fr",
+    "phone": "+49 176 3268 2817",
+    "website": "gregor.faurobert.fr",
+    "gender": null,
+    "birthday": null,
+    "nationality": null,
+    "visa": null,
+    "drivinglicense": null,
+    "wechat": null,
+    "whatsapp": null,
+    "telegram": null,
+    "messenger": null,
+    "line": null,
+    "viber": null,
+    "threema": null,
+    "github": "gfaurobert",
+    "gitlab": null,
+    "bitbucket": null,
+    "stackoverflow": null,
+    "leetcode": null,
+    "codeforces": null,
+    "codewars": null,
+    "codepen": null,
+    "tryhackme": null,
+    "googlescholar": null,
+    "researchgate": null,
+    "kaggle": null,
+    "orcid": null,
+    "figshare": null,
+    "devto": null,
+    "medium": null,
+    "wordpress": null,
+    "blogger": null,
+    "wikipedia": null,
+    "figma": null,
+    "behance": null,
+    "dribble": null,
+    "artstation": null,
+    "linkedin": "gfaurobert",
+    "indeed": null,
+    "xing": null,
+    "fiverr": null,
+    "freelancer": null,
+    "twitter": "gfaurobert",
+    "mastodon": null,
+    "instagram": null,
+    "unsplash": null,
+    "_500px": null,
+    "youtube": "salutlespm",
+    "tiktok": null,
+    "quora": null,
+    "zhihu": null,
+    "goodreads": null,
+    "strava": null,
+    "print": "Print me!"
+  },
+  "experience": {
+    "show": true,
+    "order": 3,
+    "title": "Career Summary",
+    "items": [
+      {
+        "company": "Welocalize",
+        "link": "https://welocalize.com/",
+        "tags": "Full-time",
+        "date": "2024.07 - present",
+        "role": "Senior Product Manager",
+        "location": "Wiesentheid, Germany",
+        "description": "**KEY ACHIEVEMENTS**\n+ Designed and implemented an AI-enhanced translation management workflow; boosting translation scalability and improving delivery speed\n+ Spearheaded the creation of an AI Vision agent prototype to effectively decipher unreadable manual writing for translation processes\n+ Nurtured trusted professional stakeholder relationships, serving as a trusted point of consultation across the highest seniority levels\n+ Leveraged Agile methodologies and frameworks to drive effective and positive project outcomes\n+ Engaged with continuous knowledge development relating to latest advancements to expand personal understanding and impact\n\n**RESPONSIBILITIES**\n+ Fully accountable for directing entire product lifecycles requirement gathering through to ideation, development, and deployment\n+ Supervise and guide cross-functional teams, allocating project workload based on technical strengths\n+ Assist the technical upskilling and professional growth of junior professionals through tailored coaching and training\n+ Set strategic product goals, monitor continued progress, and devise tailored strategies to mitigate potential deviations\n+ Undertake extensive market and domain analysis to inform decision-making\n"
+      },
+      {
+        "company": "Clario.",
+        "link": "https://clario.com/",
+        "tags": "Full-time",
+        "date": "2021.12 - 2024.04",
+        "role": "Product Manager",
+        "location": "Würzburg",
+        "description": "**KEY ACHIEVEMENTS**\n+ Created and deployed a domain-specific language and visual editor for designing multiple phase clinical trials; reducing study build time by 60%\n+ Drove a culture of continuous improvement by spearheading post-deployment assessment activities\n+ Combined high volumes of user feedback, market research, and data-driven metrics to steer product success\n+ Helped employees adapt to new products through in-depth guidance and the distribution of well-structured documentation\n\n**RESPONSIBILITIES**\n+ Oversaw the delivery of new product developments focused on empowering clinical trial designers to unlock better evidence\n+ Liaised with stakeholders to prioritise and define product requirements\n+ Handled end-to-end testing processes, while addressing notable bugs and issues, to ensure product release readiness\n+ Reported on project progress to stakeholders across all levels of business\n"
+      },
+      {
+        "company": "eResearch Technology GmbH",
+        "link": "https://clario.com/",
+        "tags": "Full-time",
+        "date": "2020.11 - 2021.12",
+        "role": "Product Owner",
+        "location": "Würzburg, Germany",
+        "description": "**KEY ACHIEVEMENTS**\n+ Progressed into a Product Owner role after demonstrating exceptional technical instincts and leadership qualities across a decade-long period\n+ Oversaw the seamless transition from monolithic clinical trial portals to microservices, enabling improved scalability and maintainability\n\n**RESPONSIBILITIES**\n+ Directed end-to-end project activities centred on maximising the value of Cardiology and Respiratory solutions\n+ Led cross-functional teams to deliver on protocol and technical requirements\n+ Coordinated development team reviews and prioritised items in product backlogs to ensure availability for future trials\n+ Strategised with developers to implement new features and modifications\n\n\n  \n"
+      },
+      {
+        "company": "eResearch Technology GmbH",
+        "link": "https://clario.com/",
+        "tags": "Full-time",
+        "date": "2015.07 - 2020.11",
+        "role": "Project Manager",
+        "location": "Würzburg, Germany",
+        "description": "**KEY ACHIEVEMENTS**\n+ Spearheaded the successful execution of twelve phase III clinical trials within demanding deadlines and quality expectations\n+ Recognised for resolving high-risk customer issues with empathy, attention to detail, and strong communication\n+ Facilitated seamless onboarding by providing technical guidance to users\n+ Supported long-term beneficial relationships by upholding excellent standards of stakeholder satisfaction\n\n**RESPONSIBILITIES**\n+ Acted as primary customer point-of-contact during implementation and post-deployment\n+ Served as designated Subject Matter Expert for respiratory assessments\n+ Managed customer escalations, post-sales change requests, and risk mitigation plans\n+ Ensured full compliance with applicable regulations, such as 21 CFR Part 11\n"
+      },
+      {
+        "company": "eResearch Technology GmbH",
+        "link": "https://clario.com/",
+        "tags": "Full-time",
+        "date": "2011.05 - 2015.07",
+        "role": "Data Manager",
+        "location": "Würzburg, Germany",
+        "description": "**KEY ACHIEVEMENTS**\n+ Established a Suite of Scripts for automating Query & Data Maintenance\n\n**RESPONSIBILITIES**\n+ Oversaw the management and maintenance of critical product data\n+ Held oversight for performing data cleaning activities and plausibility checks\n+ Shaped and updated short-and-long-term management plans\n"
+      }
+    ]
+  },
+  "profile": {
+    "show": true,
+    "order": 1,
+    "title": "Professional Profile",
+    "description": "Highly dedicated and skilled professional with a wealth of experience spearheading impactful product development lifecycles within the Life Sciences field. Equally proven in directing cross-functional teams to the delivery of scalable, data-informed solutions.\nRegarded as a proficient user of AI coding tools and agents with the capacity to build production-ready applications. Possesses a deep theoretical and practical understanding of AI-related tools, such as LLM, Agent, and Vision.\nHighlighted as a dedicated leader with a passion for mentoring and supporting technical professionals. Uses excellent multilingual communication to collaborate across all levels. Demonstrates a proven commitment to professional growth and technical upskilling.\n"
+  },
+  "project": {
+    "show": true,
+    "order": 5,
+    "title": "Side Projects",
+    "items": [
+      {
+        "name": "Over The Hill (Progress Chart)",
+        "link": "https://over-the-hill.faurobert.fr",
+        "tags": null,
+        "date": 2025,
+        "description": "A web and desktop application designed to visualize project progress using Hill Charts\n+ [Github](https://github.com/gfaurobert/over-the-hill)\n+ [Documentation](https://gfaurobert.github.io/over-the-hill/)\n"
+      }
+    ]
+  },
+  "skill": {
+    "show": true,
+    "order": 4,
+    "title": "Competencies",
+    "groups": [
+      {
+        "name": "Competencies",
+        "item": [
+          "Product & Project Management",
+          "Technical Acumen",
+          "Operational Transformation",
+          "Strategic Planning & Execution",
+          "Design & Development",
+          "Solution Implementation",
+          "Risk Mitigation",
+          "GCP & Regulatory compliance",
+          "Market & User Research",
+          "Stakeholder Alignment",
+          "Reporting & Presenting",
+          "Innovative Leadership",
+          "Cross-Collaboration",
+          "Team Building & Training",
+          "Coaching & Mentoring",
+          "Multilingual Communication (English, French, German)",
+          "Critical & Creative Thinking"
+        ]
+      }
+    ]
+  },
+  "innovation": {
+    "show": false,
+    "order": 2,
+    "title": "Key Achievements",
+    "items": [
+      {
+        "name": "Led AI-Enhanced Translation Workflow Modernization",
+        "date": 2024,
+        "description": "+ **Innovation**: Designed and implemented an AI-enhanced translation management workflow.\n+ **Impact**: Improved efficiency and reduced manual errors.\n+ **Technology**: AI-powered pipeline leveraging task automation.\n+ **Outcome**: Boosted translation scalability and improved global delivery speed.\n"
+      },
+      {
+        "name": "DSL-Powered Study Build Tool for Clinical Trials",
+        "date": 2022,
+        "description": "+ **Innovation**: Created a domain-specific language and visual editor for designing clinical trials.\n+ **Impact**: Reduced study build time by 60%, increased accuracy.\n+ **Technology**: Custom interpreter and visual editor for non-technical users\n+ **Outcome**: Successfully deployed across multiple phase III trials\n"
+      },
+      {
+        "name": "Migration to Microservices-Based Trial Platform",
+        "date": 2021,
+        "description": "+ **Innovation**: Transitioned monolithic clinical trial portals to microservices\n+ **Impact**: Improved scalability and maintainability\n+ **Technology**: Containerized services with API-first design\n+ **Outcome**: Reduced deployment time and increased system reliability\n"
+      },
+      {
+        "name": "Automated Data Management Processes",
+        "date": 2015,
+        "description": "+ **Innovation**: Built a suite of scripts to streamline query and data maintenance\n+ **Impact**: Improved data accuracy and reduced manual errors\n+ **Technology**: Custom data validation framework\n+ **Outcome**: Streamlined data management for clinical trials, enabling faster data analysis and reporting\n"
+      }
+    ]
+  },
+  "education": {
+    "show": true,
+    "order": 6,
+    "title": "Education & Professional Development",
+    "items": [
+      {
+        "institution": "Professional Scrum Product Owner",
+        "link": "https://www.scrum.org/user/721699",
+        "degree": "Scrum.org",
+        "date": 2020
+      },
+      {
+        "institution": "Université de Toulon",
+        "link": "https://www.univ-tln.fr/",
+        "date": "2007 - 2010",
+        "major": "Information & Communication",
+        "degree": "Master"
+      },
+      {
+        "institution": "University of West of Scotland",
+        "link": "https://www.uws.ac.uk/",
+        "date": "2009 - 2010",
+        "major": "Multimedia and Web Authoring",
+        "degree": "Post Graduate Diploma"
+      }
+    ]
+  },
+  "certificate": {
+    "show": false,
+    "order": 7,
+    "title": "Certificates",
+    "items": [
+      {
+        "name": "Professional Scrum Product Owner",
+        "issuer": "Scrum.org",
+        "date": 2020,
+        "link": "https://www.scrum.org/user/721699"
+      }
+    ]
+  },
+  "publication": {
+    "show": false,
+    "order": 8,
+    "title": "Publications",
+    "description": "The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.\n\nPublications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.\n\nIf you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.\n\nIncluding a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.\n",
+    "items": [
+      {
+        "title": "Example Publication in Action",
+        "authors": "Foo Bar",
+        "conference": "Foobar, 2019",
+        "link": "#"
+      },
+      {
+        "title": "The Art of Example Publication",
+        "authors": "Foo Bar",
+        "conference": "Foobar, 2019",
+        "link": null
+      }
+    ]
+  },
+  "award": {
+    "show": false,
+    "order": 9,
+    "title": "Awards",
+    "description": "The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.\n\nWhen including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.\n\nBy highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.\n",
+    "items": [
+      {
+        "name": "Example Awared One",
+        "awarder": "by Example",
+        "date": 2022,
+        "link": "#",
+        "description": "It's my Example Awared One by Example.\n"
+      },
+      {
+        "name": "Example Awared Two",
+        "awarder": "by Example",
+        "date": 2022,
+        "link": null,
+        "description": "It's my Example Awared Two by Example.\n"
+      }
+    ]
+  },
+  "patent": {
+    "show": false,
+    "order": 10,
+    "title": "Patents",
+    "description": "The patent section in a resume is a dedicated section where you can showcase any patents that you have been granted or are in the process of obtaining. This section is particularly relevant for individuals who work in scientific or technical fields, as well as for individuals who have developed innovative products or technologies.\n\nIn this section, you should list the title of the patent, the name of the inventors, the patent number, and the date it was granted. If the patent is pending, you can indicate that it is \"pending\" or \"in review.\" You may also want to provide a brief description of the technology or invention that the patent covers.\n\nIncluding a patent section in your resume can help demonstrate your expertise and accomplishments in your field, and can help you stand out from other candidates. However, if you do not have any patents to list, it is not necessary to include this section in your resume.\n\nTemplate for a pending patent:\n\n+ [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date]. Patent pending.\n\nTemplate for an approved patent:\n\n+ [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date], [Received Date].\n\nThe following are some examples of patent formats.\n\n+ Foo Bar. 2022. Example patent name one. US 123456, filed Oct 3, 2022. Patent pending.\n+ Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.\n"
+  },
+  "organization": {
+    "show": false,
+    "order": 11,
+    "title": "Organizations",
+    "description": "The organization section in a resume, specifically for social contexts, is a section where you can showcase any relevant involvement or leadership positions in social, cultural, or community organizations. This section can highlight your commitment to social causes and your ability to work collaboratively with others towards a common goal.\n\nIn this section, you can list the name of the organization, your role and responsibilities, the duration of your involvement, and any significant achievements or accomplishments. You can also mention any skills or qualities you gained from your involvement, such as leadership, teamwork, communication, or problem-solving skills.\n\nThis section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.\n"
+  },
+  "language": {
+    "show": false,
+    "order": 12,
+    "title": "Languages",
+    "items": [
+      {
+        "idiom": "French",
+        "level": "Native"
+      },
+      {
+        "idiom": "English",
+        "level": "Bilingual"
+      },
+      {
+        "idiom": "German",
+        "level": "Professional working proficiency (with French accent 😊)"
+      }
+    ]
+  },
+  "interest": {
+    "show": false,
+    "order": 13,
+    "title": "Interests",
+    "description": "The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.\n\nIncluding an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.\n\nHowever, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.\n",
+    "items": [
+      {
+        "item": "Reading",
+        "link": "#"
+      },
+      {
+        "item": "Cooking",
+        "link": null
+      }
+    ]
+  },
+  "evaluation": {
+    "show": false,
+    "order": 14,
+    "title": "Self-evaluation",
+    "description": "The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.\n\nIn this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.\n\nA well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.\n"
+  },
+  "reference": {
+    "show": true,
+    "order": 15,
+    "title": "References",
+    "items": [
+      {
+        "name": "Available upon request"
+      }
+    ]
+  }
+}
